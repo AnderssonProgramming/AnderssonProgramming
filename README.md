@@ -263,7 +263,7 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
     <img src="https://img.icons8.com/ios-glyphs/60/ffffff/github.png" width="45" alt="GitHub" />
   </a>
   <!-- LinkedIn Icon -->
-  <a href="www.linkedin.com/in/andersson-david-sánchez-méndez-676b72194" target="_blank">
+  <a href="https://www.linkedin.com/in/andersson-david-sánchez-méndez-676b72194" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/0A66C2/linkedin.png" width="45" alt="LinkedIn" />
   </a>
   <!-- Instagram Icon -->
