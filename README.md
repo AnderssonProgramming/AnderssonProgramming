@@ -248,7 +248,7 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
 
 <!-- Add `&langs_count=10` (or more) to show more languages in the top-langs section -->
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=radical)](https://github.com/AnderssonProgramming)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&theme=radical&langs_count=10)](https://github.com/AnderssonProgramming)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&theme=radical&langs_count=10&v=3)](https://github.com/AnderssonProgramming)
 
 </div>
 
@@ -273,8 +273,11 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
 </div>
 
 <div align="center" style="margin-top: 10px;">
-  Or simply <a href="andersson.sanchez-m@mail.escuelaing.edu.co" target="_blank">send an email</a> — I'd love to chat!
+  Or simply <a href="mailto:andersson.sanchez-m@mail.escuelaing.edu.co" target="_blank">
+    andersson.sanchez-m@mail.escuelaing.edu.co
+  </a> — I'd love to chat!
 </div>
+
 
 <div align="center">
   <hr style="border: none; height: 2px; background: linear-gradient(to right, #a100d4, #1073c9, #51bfea, #009fee); margin: 20px 0;">
