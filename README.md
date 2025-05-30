@@ -216,6 +216,36 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
       <br><sub><b>Notion</b></sub>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/1200px-Three.js_Icon.svg.png" width="45" height="45" alt="Node.js" />
+      <br><sub><b>Three.js</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" width="45" height="45" alt="Azure DevOps" />
+      <br><sub><b>PostgreSQL</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://media.licdn.com/dms/image/v2/D4E0BAQGvrlykNx9Xaw/company-logo_200_200/company-logo_200_200/0/1684762073756/neondatabase_logo?e=2147483647&v=beta&t=pjpaL_-tBQPhI4Jr9cNceBx7tV8drTsa5yG30NZfVm4" width="45" height="45" alt="SonarCloud" />
+      <br><sub><b>Neon Tech</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://api.time.com/wp-content/uploads/2023/06/time100-companies-Hugging-Face-2023.jpg" width="45" height="45" alt="MongoDB" />
+      <br><sub><b>Hugging Face</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj" width="45" height="45" alt="SQL Developer" />
+      <br><sub><b>OpenAI</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/aws-logo-icon-PNG-Transparent-Background_5.png" width="45" height="45" alt="VS Code" />
+      <br><sub><b>AWS</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" width="45" height="45" alt="Postman" />
+      <br><sub><b>Next.js</b></sub>
+    </td>
+  </tr>
 </table>
 
 </div>
