@@ -70,9 +70,11 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
 
 ## 📊 GitHub Stats
 <div align="center">
-  <!-- Add `&langs_count=10` (or more) to show more languages in the top-langs section -->
-  [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=radical)](https://github.com/AnderssonProgramming)  
-  [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&theme=radical&langs_count=10&v=3)](https://github.com/AnderssonProgramming)
+
+<!-- Add `&langs_count=10` (or more) to show more languages in the top-langs section -->
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=radical)](https://github.com/AnderssonProgramming)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&theme=radical&langs_count=10&v=3)](https://github.com/AnderssonProgramming)
+
 </div>
 
 <div align="center">
