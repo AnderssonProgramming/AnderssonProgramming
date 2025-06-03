@@ -2,7 +2,7 @@
   Replace "AnderssonProgramming" with your actual GitHub username everywhere,
   and update your LinkedIn link, Instagram link, email, and other placeholders.
 -->
-
+![](https://komarev.com/ghpvc/?username=AnderssonProgramming&color=green)
 # Hey there, I'm Andersson! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 
 I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio Garavito_ — passionate about software design, teamwork, and innovative tech. I live by the values of discipline, dedication, leadership, and stellar communication skills.
