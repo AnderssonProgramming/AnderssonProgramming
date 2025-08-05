@@ -18,8 +18,7 @@ I'm a **Systems Engineer Student** at _Escuela Colombiana de Ingeniería Julio G
 ## <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/about_me.gif?raw=true" width="30px"> About Me  <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/about_me.gif?raw=true" width="30px">
 
 - **Systems Engineer Student** with experience across multiple technologies.  
-- **Teaching Assistant** for Database Modeling subject.  
-- **Semillero Member:** building university projects and teaching students about Software Development Life Cycle technologies with real-time applications.  
+- **Teaching Assistant** for Database Modeling subject.   
 - Always ready to learn — from **cloud ecosystems** to **mobile dev** to **cutting-edge AI**.
 
 <div align="center">
