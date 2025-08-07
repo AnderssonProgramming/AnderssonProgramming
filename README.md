@@ -258,6 +258,15 @@
       <img alt="AnderssonProgramming's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AnderssonProgramming&theme=chartreuse-dark&hide_border=true&area=true" />
     </a>
   </p>
+
+  <h3>🏆 GitHub Trophies</h3>
+  <p align="center">
+    <!-- TROPHIES -->
+    <div align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=algolia&no-frame=true&column=5&margin-w=15" alt="GitHub Trophies" />
+    </div>
+  </p>
+  
 </details>
 
 
