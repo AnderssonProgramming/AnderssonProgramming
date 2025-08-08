@@ -1,3 +1,23 @@
+<!-- Social badges section -->
+<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
+<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
+<p align="center">
+  <!-- ⭐ Total Stars -->
+  <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
+    <img alt="Total stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/AnderssonProgramming?color=55960c&label=Stars&style=for-the-badge" />
+  </a>
+
+  <!-- 👥 Followers -->
+  <a href="https://github.com/AnderssonProgramming?tab=followers">
+    <img alt="Followers" title="Followers on GitHub" src="https://img.shields.io/github/followers/AnderssonProgramming?color=236ad3&label=Followers&style=for-the-badge" />
+  </a>
+
+  <!-- 👁️ Profile Views: alternativa simple y más confiable -->
+  <a href="https://github.com/AnderssonProgramming">
+    <img alt="Profile views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=AnderssonProgramming&color=blue&style=for-the-badge" />
+  </a>
+</p>
+<br>
 <p align="center">
   <a href="https://github.com/AnderssonProgramming">
     <img src="https://github.com/user-attachments/assets/33a0ab1f-981c-459a-bbbe-5b4f23f9c203" alt="Andersson Sánchez" width="300"/>
@@ -22,20 +42,6 @@
   <a href="https://www.instagram.com/ander14_73?igsh=MWJpaGZmbm1lMjR5bg==" target="_blank" title="Instagram">
     <img width="40px" src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" alt="Instagram"/>
   </a>
-</p>
-
-<br/>
-
-<!-- Social badges section -->
-<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
-<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
-<p align="center">
-  <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/AnderssonProgramming?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-  <a href="https://github.com/AnderssonProgramming?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/AnderssonProgramming?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-  <a href="https://github.com/AnderssonProgramming/Simple-View-Counter">
-    <img alt="views" title="GitHub profile views" src="https://freshidea.com/jonah/app/AnderssonProgramming-profile-views"/></a>
 </p>
 
 <br/>
