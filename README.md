@@ -31,16 +31,8 @@
 
 <!-- Social icons section -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/andersson-david-sánchez-méndez-676b72194" target="_blank" title="LinkedIn">
-    <img width="40px" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" alt="LinkedIn"/>
-  </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://github.com/AnderssonProgramming" target="_blank" title="GitHub">
     <img width="40px" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" alt="GitHub"/>
-  </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.instagram.com/ander14_73?igsh=MWJpaGZmbm1lMjR5bg==" target="_blank" title="Instagram">
-    <img width="40px" src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" alt="Instagram"/>
   </a>
 </p>
 
