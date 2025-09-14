@@ -54,7 +54,7 @@
   </p>
 
   <p align="justify">
-    With hands-on experience across multiple tech stacks, I've worked as a <strong>Teaching Assistant</strong> in Database Modeling, and I’m constantly exploring everything from <em>cloud computing</em> and <em>mobile development</em> to the ever-evolving world of <em>AI</em>.
+    With hands-on experience across multiple tech stacks, I've worked as a <strong>Teaching Assistant</strong> in Database Modeling and OOP, and I’m constantly exploring everything from <em>cloud computing</em> and <em>mobile development</em> to the ever-evolving world of <em>AI</em>.
   </p>
 
   <p><strong>⚡ Core Values:</strong> Discipline · Dedication · Teamwork · Leadership · Passion · Communication</p>
