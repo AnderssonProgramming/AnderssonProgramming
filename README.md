@@ -177,6 +177,7 @@
     <img alt="Vite" src="https://custom-icon-badges.demolab.com/badge/-Vite-646CFF?logo=vite&logoColor=white"/>
     <img alt="Spring" src="https://custom-icon-badges.demolab.com/badge/-Spring-6DB33F?logo=spring&logoColor=white"/>
     <img alt="NestJS" src="https://custom-icon-badges.demolab.com/badge/-NestJS-E0234E?logo=nestjs&logoColor=white"/>
+    <img alt="FastAPI" src="https://custom-icon-badges.demolab.com/badge/-FastAPI-009688?logo=fastapi&logoColor=white"/>
     <img alt="Node.js" src="https://custom-icon-badges.demolab.com/badge/-Node.js-43853D?logo=node.js&logoColor=white"/>
     <img alt="Bootstrap" src="https://custom-icon-badges.demolab.com/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white"/>
     <img alt="D3.js" src="https://custom-icon-badges.demolab.com/badge/-D3.js-FF6600?logo=d3.js&logoColor=white"/>
@@ -185,6 +186,9 @@
     <img alt="Jest" src="https://custom-icon-badges.demolab.com/badge/-Jest-C21325?logo=jest&logoColor=white"/>
     <img alt="NumPy" src="https://custom-icon-badges.demolab.com/badge/-NumPy-013243?logo=numpy&logoColor=white"/>
     <img alt="Pandas" src="https://custom-icon-badges.demolab.com/badge/-Pandas-150458?logo=pandas&logoColor=white"/>
+    <img alt="SQLAlchemy" src="https://custom-icon-badges.demolab.com/badge/-SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white"/>
+    <img alt="Pydantic" src="https://custom-icon-badges.demolab.com/badge/-Pydantic-E92063?logo=pydantic&logoColor=white"/>
+    <img alt="Uvicorn" src="https://custom-icon-badges.demolab.com/badge/-Uvicorn-499848?logo=gunicorn&logoColor=white"/>
     <img alt="Gradle" src="https://custom-icon-badges.demolab.com/badge/-Gradle-02303A?logo=gradle&logoColor=white"/>
     <img alt="JWT" src="https://custom-icon-badges.demolab.com/badge/-JWT-000000?logo=json-web-tokens&logoColor=white"/>
     <img alt="Bcrypt" src="https://custom-icon-badges.demolab.com/badge/-Bcrypt-338833?logo=lock&logoColor=white"/>
@@ -210,6 +214,7 @@
 
   <h3>🤖 AI & Machine Learning</h3>
   <p align="center">
+    <img alt="TensorFlow" src="https://custom-icon-badges.demolab.com/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white"/>
     <img alt="OpenAI" src="https://custom-icon-badges.demolab.com/badge/-OpenAI-412991?logo=openai&logoColor=white"/>
     <img alt="Claude" src="https://custom-icon-badges.demolab.com/badge/-Claude-CC9B7A?logo=anthropic&logoColor=white"/>
     <img alt="Ollama" src="https://custom-icon-badges.demolab.com/badge/-Ollama-000000?logo=ollama&logoColor=white"/>
@@ -228,6 +233,7 @@
     <img alt="Android Studio" src="https://custom-icon-badges.demolab.com/badge/-Android%20Studio-3DDC84?logo=android-studio&logoColor=white"/>
     <img alt="Eclipse" src="https://custom-icon-badges.demolab.com/badge/-Eclipse-2C2255?logo=eclipse&logoColor=white"/>
     <img alt="Maven" src="https://custom-icon-badges.demolab.com/badge/-Maven-C71A36?logo=apache-maven&logoColor=white"/>
+    <img alt="Poetry" src="https://custom-icon-badges.demolab.com/badge/-Poetry-60A5FA?logo=poetry&logoColor=white"/>
     <img alt="Docker" src="https://custom-icon-badges.demolab.com/badge/-Docker-2496ED?logo=docker&logoColor=white"/>
     <img alt="Postman" src="https://custom-icon-badges.demolab.com/badge/-Postman-FF6C37?logo=postman&logoColor=white"/>
     <img alt="Swagger" src="https://custom-icon-badges.demolab.com/badge/-Swagger-85EA2D?logo=swagger&logoColor=black"/>
@@ -248,7 +254,6 @@
     <img alt="Gradle" src="https://custom-icon-badges.demolab.com/badge/-Gradle-02303A?logo=gradle&logoColor=white"/>
   </p>
 </details>
-
 
 <details> 
   <summary><h2>📊 Stats and Activity</h2></summary>
