@@ -157,8 +157,10 @@
     <img alt="C" src="https://custom-icon-badges.demolab.com/badge/-C-03599C?logo=c&logoColor=white"/>
     <img alt="Bash" src="https://custom-icon-badges.demolab.com/badge/-Bash-121011?logo=gnu-bash&logoColor=white"/>
     <img alt="Markdown" src="https://custom-icon-badges.demolab.com/badge/-Markdown-000000?logo=markdown&logoColor=white"/>
+    <img alt="LaTeX" src="https://custom-icon-badges.demolab.com/badge/-LaTeX-008080?logo=latex&logoColor=white"/>
     <img alt="JSON" src="https://custom-icon-badges.demolab.com/badge/-JSON-2496ED?logo=json&logoColor=white"/>
     <img alt="XML" src="https://custom-icon-badges.demolab.com/badge/-XML-E34F26?logo=xml&logoColor=white"/>
+    <img alt="YAML" src="https://custom-icon-badges.demolab.com/badge/-YAML-CB171E?logo=yaml&logoColor=white"/>
     <img alt="R" src="https://custom-icon-badges.demolab.com/badge/-R-276DC3?logo=r&logoColor=white"/>
     <img alt="Haskell" src="https://custom-icon-badges.demolab.com/badge/-Haskell-5E5086?logo=haskell&logoColor=white"/>
     <img alt="Shell" src="https://custom-icon-badges.demolab.com/badge/-Shell-89e051?logo=gnu-bash&logoColor=white"/>
@@ -172,15 +174,20 @@
     <img alt="React" src="https://custom-icon-badges.demolab.com/badge/-React-20232A?logo=react&logoColor=%2361DAFB"/>
     <img alt="Next.js" src="https://custom-icon-badges.demolab.com/badge/-Next.js-000000?logo=next.js&logoColor=white"/>
     <img alt="Angular" src="https://custom-icon-badges.demolab.com/badge/-Angular-DD0031?logo=angular&logoColor=white"/>
+    <img alt="Vite" src="https://custom-icon-badges.demolab.com/badge/-Vite-646CFF?logo=vite&logoColor=white"/>
     <img alt="Spring" src="https://custom-icon-badges.demolab.com/badge/-Spring-6DB33F?logo=spring&logoColor=white"/>
+    <img alt="NestJS" src="https://custom-icon-badges.demolab.com/badge/-NestJS-E0234E?logo=nestjs&logoColor=white"/>
+    <img alt="Node.js" src="https://custom-icon-badges.demolab.com/badge/-Node.js-43853D?logo=node.js&logoColor=white"/>
     <img alt="Bootstrap" src="https://custom-icon-badges.demolab.com/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white"/>
     <img alt="D3.js" src="https://custom-icon-badges.demolab.com/badge/-D3.js-FF6600?logo=d3.js&logoColor=white"/>
     <img alt="Three.js" src="https://custom-icon-badges.demolab.com/badge/-Three.js-000000?logo=three.js&logoColor=white"/>
     <img alt="JUnit" src="https://custom-icon-badges.demolab.com/badge/-JUnit-25A162?logo=junit&logoColor=white"/>
-    <img alt="Node.js" src="https://custom-icon-badges.demolab.com/badge/-Node.js-43853D?logo=node.js&logoColor=white"/>
+    <img alt="Jest" src="https://custom-icon-badges.demolab.com/badge/-Jest-C21325?logo=jest&logoColor=white"/>
     <img alt="NumPy" src="https://custom-icon-badges.demolab.com/badge/-NumPy-013243?logo=numpy&logoColor=white"/>
     <img alt="Pandas" src="https://custom-icon-badges.demolab.com/badge/-Pandas-150458?logo=pandas&logoColor=white"/>
     <img alt="Gradle" src="https://custom-icon-badges.demolab.com/badge/-Gradle-02303A?logo=gradle&logoColor=white"/>
+    <img alt="JWT" src="https://custom-icon-badges.demolab.com/badge/-JWT-000000?logo=json-web-tokens&logoColor=white"/>
+    <img alt="Bcrypt" src="https://custom-icon-badges.demolab.com/badge/-Bcrypt-338833?logo=lock&logoColor=white"/>
   </p>
 
   <h3>🗄️ Databases & Cloud</h3>
@@ -188,14 +195,25 @@
     <img alt="MongoDB" src="https://custom-icon-badges.demolab.com/badge/-MongoDB-4EA94B?logo=mongodb&logoColor=white"/>
     <img alt="MySQL" src="https://custom-icon-badges.demolab.com/badge/-MySQL-4479A1?logo=mysql&logoColor=white"/>
     <img alt="PostgreSQL" src="https://custom-icon-badges.demolab.com/badge/-PostgreSQL-316192?logo=postgresql&logoColor=white"/>
+    <img alt="Supabase" src="https://custom-icon-badges.demolab.com/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white"/>
     <img alt="Redis" src="https://custom-icon-badges.demolab.com/badge/-Redis-DC382D?logo=redis&logoColor=white"/>
     <img alt="Oracle" src="https://custom-icon-badges.demolab.com/badge/-Oracle-F00000?logo=oracle&logoColor=white"/>
     <img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/-SQL-025E8C?logo=database&logoColor=white"/>
     <img alt="AWS" src="https://custom-icon-badges.demolab.com/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white"/>
     <img alt="Azure" src="https://custom-icon-badges.demolab.com/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white"/>
     <img alt="Vercel" src="https://custom-icon-badges.demolab.com/badge/-Vercel-000000?logo=vercel&logoColor=white"/>
+    <img alt="Railway" src="https://custom-icon-badges.demolab.com/badge/-Railway-0B0D0E?logo=railway&logoColor=white"/>
     <img alt="GitHub Pages" src="https://custom-icon-badges.demolab.com/badge/-GitHub%20Pages-327FC7?logo=github&logoColor=white"/>
     <img alt="Red Hat" src="https://custom-icon-badges.demolab.com/badge/-Red%20Hat-EE0000?logo=red-hat&logoColor=white"/>
+    <img alt="Nginx" src="https://custom-icon-badges.demolab.com/badge/-Nginx-009639?logo=nginx&logoColor=white"/>
+  </p>
+
+  <h3>🤖 AI & Machine Learning</h3>
+  <p align="center">
+    <img alt="OpenAI" src="https://custom-icon-badges.demolab.com/badge/-OpenAI-412991?logo=openai&logoColor=white"/>
+    <img alt="Claude" src="https://custom-icon-badges.demolab.com/badge/-Claude-CC9B7A?logo=anthropic&logoColor=white"/>
+    <img alt="Ollama" src="https://custom-icon-badges.demolab.com/badge/-Ollama-000000?logo=ollama&logoColor=white"/>
+    <img alt="Groq API" src="https://custom-icon-badges.demolab.com/badge/-Groq%20API-F55036?logo=groq&logoColor=white"/>
   </p>
 
   <h3>💻 Tools & Utilities</h3>
@@ -207,14 +225,18 @@
     <img alt="VSCode" src="https://custom-icon-badges.demolab.com/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white"/>
     <img alt="IntelliJ IDEA" src="https://custom-icon-badges.demolab.com/badge/-IDEA-000000?logo=intellij-idea&logoColor=white"/>
     <img alt="PyCharm" src="https://custom-icon-badges.demolab.com/badge/-PyCharm-000000?logo=pycharm&logoColor=white"/>
+    <img alt="Android Studio" src="https://custom-icon-badges.demolab.com/badge/-Android%20Studio-3DDC84?logo=android-studio&logoColor=white"/>
     <img alt="Eclipse" src="https://custom-icon-badges.demolab.com/badge/-Eclipse-2C2255?logo=eclipse&logoColor=white"/>
     <img alt="Maven" src="https://custom-icon-badges.demolab.com/badge/-Maven-C71A36?logo=apache-maven&logoColor=white"/>
     <img alt="Docker" src="https://custom-icon-badges.demolab.com/badge/-Docker-2496ED?logo=docker&logoColor=white"/>
     <img alt="Postman" src="https://custom-icon-badges.demolab.com/badge/-Postman-FF6C37?logo=postman&logoColor=white"/>
+    <img alt="Swagger" src="https://custom-icon-badges.demolab.com/badge/-Swagger-85EA2D?logo=swagger&logoColor=black"/>
+    <img alt="Cisco" src="https://custom-icon-badges.demolab.com/badge/-Cisco-1BA0D7?logo=cisco&logoColor=white"/>
     <img alt="Notion" src="https://custom-icon-badges.demolab.com/badge/-Notion-000000?logo=notion&logoColor=white"/>
+    <img alt="Figma" src="https://custom-icon-badges.demolab.com/badge/-Figma-F24E1E?logo=figma&logoColor=white"/>
+    <img alt="Canva" src="https://custom-icon-badges.demolab.com/badge/-Canva-00C4CC?logo=canva&logoColor=white"/>
     <img alt="Photopea" src="https://custom-icon-badges.demolab.com/badge/-Photopea-18A497?logo=photopea&logoColor=white"/>
     <img alt="OBS Studio" src="https://custom-icon-badges.demolab.com/badge/-OBS-302E31?logo=obs-studio&logoColor=white"/>
-    <img alt="Figma" src="https://custom-icon-badges.demolab.com/badge/-Figma-F24E1E?logo=figma&logoColor=white"/>
     <img alt="Opera" src="https://custom-icon-badges.demolab.com/badge/-Opera-CC0F16?logo=opera&logoColor=white"/>
     <img alt="Brave" src="https://custom-icon-badges.demolab.com/badge/-Brave-FB542B?logo=brave&logoColor=white"/>
     <img alt="Unsplash" src="https://custom-icon-badges.demolab.com/badge/-Unsplash-000000?logo=unsplash&logoColor=white"/>
