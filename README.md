@@ -308,12 +308,12 @@
   <br>
   <div align="center" style="margin: 20px 0;">
     <div style="display: inline-block; text-align: left; max-width: 400px;">
-      🛠️ <strong>AWS:</strong> API Gateways &amp; scalable microservices<br>
-      🛢️ <strong>SQL Server:</strong> Advanced relational modeling &amp; tuning<br>
       🤖 <strong>LLMs:</strong> Next-gen conversational AI agents<br>
       📱 <strong>Android &amp; Kotlin:</strong> Hybrid backend in Android Studio<br>
-      ☁️ <strong>Azure Copilot:</strong> AI-powered dev workflows<br>
       🌐 <strong>WebSockets:</strong> Real-time, bidirectional apps
+      🧠 <strong>Gemini 3 Pro:</strong> Multimodal LLMs, advanced reasoning & API integration<br>
+      🎮 <strong>Unity:</strong> Game development with C#, physics systems & interactive design<br>
+      🔗 <strong>n8n:</strong> Workflow automation, low-code integrations & event-driven pipelines<br>
     </div>
   </div>
 
