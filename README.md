@@ -1,352 +1,443 @@
-<!-- Social badges section -->
-<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
-<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
-<p align="center">
-  <!-- ⭐ Total Stars -->
-  <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
-    <img alt="Total stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/AnderssonProgramming?color=55960c&label=Stars&style=for-the-badge" />
-  </a>
+<div align="center">
 
-  <!-- 👥 Followers -->
+<!-- Hero Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Andersson%20Sánchez&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+
+<!-- Animated Typing -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&height=100&lines=Systems+Engineering+Student+%F0%9F%8E%93;Full-Stack+Developer+%F0%9F%92%BB;Teaching+Assistant+%7C+Problem+Solver+%F0%9F%A7%A0;Building+Tomorrow's+Solutions+Today+%F0%9F%9A%80" alt="Typing SVG" /></a>
+
+<!-- Social Badges -->
+<p>
+  <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/AnderssonProgramming?style=for-the-badge&logo=github&logoColor=white&color=yellow&labelColor=1F222E" alt="Stars"/>
+  </a>
   <a href="https://github.com/AnderssonProgramming?tab=followers">
-    <img alt="Followers" title="Followers on GitHub" src="https://img.shields.io/github/followers/AnderssonProgramming?color=236ad3&label=Followers&style=for-the-badge" />
+    <img src="https://img.shields.io/github/followers/AnderssonProgramming?style=for-the-badge&logo=github&logoColor=white&color=blue&labelColor=1F222E" alt="Followers"/>
   </a>
-
-  <!-- 👁️ Profile Views: alternativa simple y más confiable -->
   <a href="https://github.com/AnderssonProgramming">
-    <img alt="Profile views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=AnderssonProgramming&color=blue&style=for-the-badge" />
-  </a>
-</p>
-<br>
-<p align="center">
-  <a href="https://github.com/AnderssonProgramming">
-    <img src="https://github.com/user-attachments/assets/33a0ab1f-981c-459a-bbbe-5b4f23f9c203" alt="Andersson Sánchez" width="300"/>
-</p>
-
-<p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Systems%20Engineer%20Student;Full-Stack%20Experience;University%20Portfolio%20Projects;Update:%20installing%20knowledge...&font=Fira%20Code&center=true&width=440&height=45&color=ff9300&vCenter=true&pause=1000&size=22" /></a>
-</p>
-
-<!-- Social icons section -->
-<p align="center">
-  <a href="https://github.com/AnderssonProgramming" target="_blank" title="GitHub">
-    <img width="40px" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" alt="GitHub"/>
+    <img src="https://komarev.com/ghpvc/?username=AnderssonProgramming&style=for-the-badge&color=orange&label=PROFILE+VIEWS" alt="Profile Views"/>
   </a>
 </p>
 
-<br/>
-
-<!-- GitHub Star link (actualizado con nuevo GIF) -->
-<p align="center">
-  <a href="https://stars.github.com/profiles/denvercoder1/" target="_blank" title="GitHub Star 2023">
-    <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="GitHub Star 2023" width="300px"/>
-  </a>
-</p>
-
-
-<details open> 
-  <summary><h2>🌠 About Me</h2></summary>
-
-  <p align="justify">
-    I'm a <strong>Systems Engineering student</strong> at <em>Escuela Colombiana de Ingeniería Julio Garavito</em>, passionate about <strong>software design</strong>, <strong>collaborative development</strong>, and <strong>innovative technologies</strong>.
-  </p>
-
-  <p align="justify">
-    With hands-on experience across multiple tech stacks, I've worked as a <strong>Teaching Assistant</strong> in Database Modeling and OOP, and I’m constantly exploring everything from <em>cloud computing</em> and <em>mobile development</em> to the ever-evolving world of <em>AI</em>.
-  </p>
-
-  <p><strong>⚡ Core Values:</strong> Discipline · Dedication · Teamwork · Leadership · Passion · Communication</p>
-  <p><strong>🎯 Outside the Code:</strong> Lifting at the gym, shooting hoops on the court, running long distances to sharpen mental endurance and riding motorcycles to clear the mind and fuel the spirit.</p>
-</details>
-
-
-<details open> 
-  <summary><h2>📘 Favorite Dev Projects</h2></summary>
-
-  <p align="left">
-    <a href="https://github.com/AnderssonProgramming/tic-tac-toe"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=tic-tac-toe&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="tic-tac-toe"></a>
-    <a href="https://github.com/AnderssonProgramming/concurrent-web-server"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=concurrent-web-server&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="concurrent-web-server"></a>
-    <a href="https://github.com/AnderssonProgramming/linked-stats-engine"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=linked-stats-engine&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="linked-stats-engine"></a>
-    <a href="https://github.com/AnderssonProgramming/calculator-mvc"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=calculator-mvc&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="calculator-mvc"></a>
-    <a href="https://github.com/AnderssonProgramming/llm-application"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=llm-application&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="llm-application"></a>
-    <a href="https://github.com/AnderssonProgramming/POOB-VS-Zombies"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=POOB-VS-Zombies&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="POOB-VS-Zombies"></a>
-    <a href="https://github.com/AnderssonProgramming/gym-mvp"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=gym-mvp&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="gym-mvp"></a>
-    <a href="https://github.com/AnderssonProgramming/cda-front-developer"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=cda-front-developer&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="cda-front-developer"></a>
-    <a href="https://github.com/AnderssonProgramming/spring-sockets-rt-p5"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=spring-sockets-rt-p5&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=false&icon_color=F8D866&show_icons=true" alt="spring-sockets-rt-p5"></a>
-  </p>
-
-  <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
-    <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
-  </a>
-</details>
-
-
-<details open> 
-  <summary><h2>📕 Projects I’ve Collaborated On</h2></summary>
-
-  <p align="left">
-    <!-- 🔹 Elysium Project -->
-    <a href="https://github.com/AnderssonProgramming/Elysium-Back">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Elysium-Back&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Elysium-Back">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/Elysium-Front-React">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Elysium-Front-React&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Elysium-Front-React">
-    </a>
-    <!-- 🔹 Prometeo Project -->
-    <a href="https://github.com/AnderssonProgramming/Prometeo-Back">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Prometeo-Back&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Prometeo-Back">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/ECI-Bienestar-Front">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=ECI-Bienestar-Front&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="ECI-Bienestar-Front">
-    </a>
-    <!-- 🔹 Otros proyectos -->
-    <a href="https://github.com/AnderssonProgramming/Puzzle">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Puzzle&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Puzzle">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/Delizia">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Delizia&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Delizia">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/Library">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Library&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Library">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/Patterns">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=Patterns&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="Patterns">
-    </a>
-    <a href="https://github.com/AnderssonProgramming/MyFirstApproachGithub-">
-      <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=MyFirstApproachGithub-&theme=react&bg_color=1F222E&title_color=ff8c00&hide_border=true&icon_color=F8D866&show_icons=true&show_description=true" alt="MyFirstApproachGithub-">
-    </a>
-  </p>
-
-  <p align="left">
-    <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=updated">
-      <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
-    </a>
-  </p>
-</details>
-
-
-<details open> 
-  <summary><h2>🕹️ Just for Fun</h2></summary>
-
-  <p align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300" alt="Pac-Man gif" />
-    <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="300" alt="Let's Catch gif" />
-    <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="300" alt="Dinosaur Game gif" />
-  </p>
-
-  <p align="center">
-    <em>Because life’s not just about code — sometimes you gotta play a little 🕹️</em>
-  </p>
-</details>
-
-
-<details open> 
-  <summary><h2>🛠️ My Favorite Tools</h2></summary>
-
-  <h3>👨‍💻 Programming & Markup Languages</h3>
-  <p align="center">
-    <img alt="HTML5" src="https://custom-icon-badges.demolab.com/badge/-HTML5-E34F26?logo=html5&logoColor=white"/>
-    <img alt="CSS3" src="https://custom-icon-badges.demolab.com/badge/-CSS3-1572B6?logo=css3&logoColor=white"/>
-    <img alt="JavaScript" src="https://custom-icon-badges.demolab.com/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black"/>
-    <img alt="TypeScript" src="https://custom-icon-badges.demolab.com/badge/-TypeScript-007ACC?logo=typescript&logoColor=white"/>
-    <img alt="Python" src="https://custom-icon-badges.demolab.com/badge/-Python-14354C?logo=python&logoColor=white"/>
-    <img alt="Java" src="https://custom-icon-badges.demolab.com/badge/-Java-007396?logo=java&logoColor=white"/>
-    <img alt="Kotlin" src="https://custom-icon-badges.demolab.com/badge/-Kotlin-0095D5?logo=kotlin&logoColor=white"/>
-    <img alt="C" src="https://custom-icon-badges.demolab.com/badge/-C-03599C?logo=c&logoColor=white"/>
-    <img alt="Bash" src="https://custom-icon-badges.demolab.com/badge/-Bash-121011?logo=gnu-bash&logoColor=white"/>
-    <img alt="Markdown" src="https://custom-icon-badges.demolab.com/badge/-Markdown-000000?logo=markdown&logoColor=white"/>
-    <img alt="LaTeX" src="https://custom-icon-badges.demolab.com/badge/-LaTeX-008080?logo=latex&logoColor=white"/>
-    <img alt="JSON" src="https://custom-icon-badges.demolab.com/badge/-JSON-2496ED?logo=json&logoColor=white"/>
-    <img alt="XML" src="https://custom-icon-badges.demolab.com/badge/-XML-E34F26?logo=xml&logoColor=white"/>
-    <img alt="YAML" src="https://custom-icon-badges.demolab.com/badge/-YAML-CB171E?logo=yaml&logoColor=white"/>
-    <img alt="R" src="https://custom-icon-badges.demolab.com/badge/-R-276DC3?logo=r&logoColor=white"/>
-    <img alt="Haskell" src="https://custom-icon-badges.demolab.com/badge/-Haskell-5E5086?logo=haskell&logoColor=white"/>
-    <img alt="Shell" src="https://custom-icon-badges.demolab.com/badge/-Shell-89e051?logo=gnu-bash&logoColor=white"/>
-    <img alt="PowerShell" src="https://custom-icon-badges.demolab.com/badge/-PowerShell-5391FE?logo=powershell&logoColor=white"/>
-    <img alt="Windows" src="https://custom-icon-badges.demolab.com/badge/-Windows-0078D6?logo=windows&logoColor=white"/>
-    <img alt="Linux" src="https://custom-icon-badges.demolab.com/badge/-Linux-333333?logo=linux&logoColor=white"/>
-  </p>
-
-  <h3>🧰 Frameworks & Libraries</h3>
-  <p align="center">
-    <img alt="React" src="https://custom-icon-badges.demolab.com/badge/-React-20232A?logo=react&logoColor=%2361DAFB"/>
-    <img alt="Next.js" src="https://custom-icon-badges.demolab.com/badge/-Next.js-000000?logo=next.js&logoColor=white"/>
-    <img alt="Angular" src="https://custom-icon-badges.demolab.com/badge/-Angular-DD0031?logo=angular&logoColor=white"/>
-    <img alt="Vite" src="https://custom-icon-badges.demolab.com/badge/-Vite-646CFF?logo=vite&logoColor=white"/>
-    <img alt="Spring" src="https://custom-icon-badges.demolab.com/badge/-Spring-6DB33F?logo=spring&logoColor=white"/>
-    <img alt="NestJS" src="https://custom-icon-badges.demolab.com/badge/-NestJS-E0234E?logo=nestjs&logoColor=white"/>
-    <img alt="FastAPI" src="https://custom-icon-badges.demolab.com/badge/-FastAPI-009688?logo=fastapi&logoColor=white"/>
-    <img alt="Node.js" src="https://custom-icon-badges.demolab.com/badge/-Node.js-43853D?logo=node.js&logoColor=white"/>
-    <img alt="Bootstrap" src="https://custom-icon-badges.demolab.com/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white"/>
-    <img alt="D3.js" src="https://custom-icon-badges.demolab.com/badge/-D3.js-FF6600?logo=d3.js&logoColor=white"/>
-    <img alt="Three.js" src="https://custom-icon-badges.demolab.com/badge/-Three.js-000000?logo=three.js&logoColor=white"/>
-    <img alt="JUnit" src="https://custom-icon-badges.demolab.com/badge/-JUnit-25A162?logo=junit&logoColor=white"/>
-    <img alt="Jest" src="https://custom-icon-badges.demolab.com/badge/-Jest-C21325?logo=jest&logoColor=white"/>
-    <img alt="NumPy" src="https://custom-icon-badges.demolab.com/badge/-NumPy-013243?logo=numpy&logoColor=white"/>
-    <img alt="Pandas" src="https://custom-icon-badges.demolab.com/badge/-Pandas-150458?logo=pandas&logoColor=white"/>
-    <img alt="SQLAlchemy" src="https://custom-icon-badges.demolab.com/badge/-SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white"/>
-    <img alt="Pydantic" src="https://custom-icon-badges.demolab.com/badge/-Pydantic-E92063?logo=pydantic&logoColor=white"/>
-    <img alt="Uvicorn" src="https://custom-icon-badges.demolab.com/badge/-Uvicorn-499848?logo=gunicorn&logoColor=white"/>
-    <img alt="Gradle" src="https://custom-icon-badges.demolab.com/badge/-Gradle-02303A?logo=gradle&logoColor=white"/>
-    <img alt="JWT" src="https://custom-icon-badges.demolab.com/badge/-JWT-000000?logo=json-web-tokens&logoColor=white"/>
-    <img alt="Bcrypt" src="https://custom-icon-badges.demolab.com/badge/-Bcrypt-338833?logo=lock&logoColor=white"/>
-  </p>
-
-  <h3>🗄️ Databases & Cloud</h3>
-  <p align="center">
-    <img alt="MongoDB" src="https://custom-icon-badges.demolab.com/badge/-MongoDB-4EA94B?logo=mongodb&logoColor=white"/>
-    <img alt="MySQL" src="https://custom-icon-badges.demolab.com/badge/-MySQL-4479A1?logo=mysql&logoColor=white"/>
-    <img alt="PostgreSQL" src="https://custom-icon-badges.demolab.com/badge/-PostgreSQL-316192?logo=postgresql&logoColor=white"/>
-    <img alt="Supabase" src="https://custom-icon-badges.demolab.com/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white"/>
-    <img alt="Redis" src="https://custom-icon-badges.demolab.com/badge/-Redis-DC382D?logo=redis&logoColor=white"/>
-    <img alt="Oracle" src="https://custom-icon-badges.demolab.com/badge/-Oracle-F00000?logo=oracle&logoColor=white"/>
-    <img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/-SQL-025E8C?logo=database&logoColor=white"/>
-    <img alt="AWS" src="https://custom-icon-badges.demolab.com/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white"/>
-    <img alt="Azure" src="https://custom-icon-badges.demolab.com/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white"/>
-    <img alt="Vercel" src="https://custom-icon-badges.demolab.com/badge/-Vercel-000000?logo=vercel&logoColor=white"/>
-    <img alt="Railway" src="https://custom-icon-badges.demolab.com/badge/-Railway-0B0D0E?logo=railway&logoColor=white"/>
-    <img alt="GitHub Pages" src="https://custom-icon-badges.demolab.com/badge/-GitHub%20Pages-327FC7?logo=github&logoColor=white"/>
-    <img alt="Red Hat" src="https://custom-icon-badges.demolab.com/badge/-Red%20Hat-EE0000?logo=red-hat&logoColor=white"/>
-    <img alt="Nginx" src="https://custom-icon-badges.demolab.com/badge/-Nginx-009639?logo=nginx&logoColor=white"/>
-  </p>
-
-  <h3>🤖 AI & Machine Learning</h3>
-  <p align="center">
-    <img alt="TensorFlow" src="https://custom-icon-badges.demolab.com/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white"/>
-    <img alt="OpenAI" src="https://custom-icon-badges.demolab.com/badge/-OpenAI-412991?logo=openai&logoColor=white"/>
-    <img alt="Claude" src="https://custom-icon-badges.demolab.com/badge/-Claude-CC9B7A?logo=anthropic&logoColor=white"/>
-    <img alt="Ollama" src="https://custom-icon-badges.demolab.com/badge/-Ollama-000000?logo=ollama&logoColor=white"/>
-    <img alt="Groq API" src="https://custom-icon-badges.demolab.com/badge/-Groq%20API-F55036?logo=groq&logoColor=white"/>
-  </p>
-
-  <h3>💻 Tools & Utilities</h3>
-  <p align="center">
-    <img alt="Git" src="https://custom-icon-badges.demolab.com/badge/-Git-F05033?logo=git&logoColor=white"/>
-    <img alt="GitHub" src="https://custom-icon-badges.demolab.com/badge/-GitHub-181717?logo=github&logoColor=white"/>
-    <img alt="GitHub Desktop" src="https://custom-icon-badges.demolab.com/badge/-GitHub%20Desktop-8034A9?logo=github&logoColor=white"/>
-    <img alt="GitHub Actions" src="https://custom-icon-badges.demolab.com/badge/-GitHub%20Actions-2671E5?logo=github-actions&logoColor=white"/>
-    <img alt="VSCode" src="https://custom-icon-badges.demolab.com/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white"/>
-    <img alt="IntelliJ IDEA" src="https://custom-icon-badges.demolab.com/badge/-IDEA-000000?logo=intellij-idea&logoColor=white"/>
-    <img alt="PyCharm" src="https://custom-icon-badges.demolab.com/badge/-PyCharm-000000?logo=pycharm&logoColor=white"/>
-    <img alt="Android Studio" src="https://custom-icon-badges.demolab.com/badge/-Android%20Studio-3DDC84?logo=android-studio&logoColor=white"/>
-    <img alt="Eclipse" src="https://custom-icon-badges.demolab.com/badge/-Eclipse-2C2255?logo=eclipse&logoColor=white"/>
-    <img alt="Maven" src="https://custom-icon-badges.demolab.com/badge/-Maven-C71A36?logo=apache-maven&logoColor=white"/>
-    <img alt="Poetry" src="https://custom-icon-badges.demolab.com/badge/-Poetry-60A5FA?logo=poetry&logoColor=white"/>
-    <img alt="Docker" src="https://custom-icon-badges.demolab.com/badge/-Docker-2496ED?logo=docker&logoColor=white"/>
-    <img alt="Postman" src="https://custom-icon-badges.demolab.com/badge/-Postman-FF6C37?logo=postman&logoColor=white"/>
-    <img alt="Swagger" src="https://custom-icon-badges.demolab.com/badge/-Swagger-85EA2D?logo=swagger&logoColor=black"/>
-    <img alt="Cisco" src="https://custom-icon-badges.demolab.com/badge/-Cisco-1BA0D7?logo=cisco&logoColor=white"/>
-    <img alt="Notion" src="https://custom-icon-badges.demolab.com/badge/-Notion-000000?logo=notion&logoColor=white"/>
-    <img alt="Figma" src="https://custom-icon-badges.demolab.com/badge/-Figma-F24E1E?logo=figma&logoColor=white"/>
-    <img alt="Canva" src="https://custom-icon-badges.demolab.com/badge/-Canva-00C4CC?logo=canva&logoColor=white"/>
-    <img alt="Photopea" src="https://custom-icon-badges.demolab.com/badge/-Photopea-18A497?logo=photopea&logoColor=white"/>
-    <img alt="OBS Studio" src="https://custom-icon-badges.demolab.com/badge/-OBS-302E31?logo=obs-studio&logoColor=white"/>
-    <img alt="Opera" src="https://custom-icon-badges.demolab.com/badge/-Opera-CC0F16?logo=opera&logoColor=white"/>
-    <img alt="Brave" src="https://custom-icon-badges.demolab.com/badge/-Brave-FB542B?logo=brave&logoColor=white"/>
-    <img alt="Unsplash" src="https://custom-icon-badges.demolab.com/badge/-Unsplash-000000?logo=unsplash&logoColor=white"/>
-    <img alt="Stack Overflow" src="https://custom-icon-badges.demolab.com/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"/>
-    <img alt="Slack" src="https://custom-icon-badges.demolab.com/badge/-Slack-4A154B?logo=slack&logoColor=white"/>
-    <img alt="SonarLint" src="https://custom-icon-badges.demolab.com/badge/-SonarLint-CB2029?logo=sonarlint&logoColor=white"/>
-    <img alt="Oh My Posh" src="https://custom-icon-badges.demolab.com/badge/-OhMyPosh-4AB5F1?logo=windows-terminal&logoColor=white"/>
-    <img alt="Neon Tech" src="https://custom-icon-badges.demolab.com/badge/-NeonTech-FF6FFF?logo=neon&logoColor=white"/>
-    <img alt="Gradle" src="https://custom-icon-badges.demolab.com/badge/-Gradle-02303A?logo=gradle&logoColor=white"/>
-  </p>
-</details>
-
-<details> 
-  <summary><h2>📊 Stats and Activity</h2></summary>
-
-  <h3>🔥 Streak Stats</h3>
-  <p align="center">
-    <a href="https://git.io/streak-stats">
-      <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=AnderssonProgramming&theme=chartreuse-dark&hide_border=true" />
-    </a>
-  </p>
-
-
-  <h3>💻 GitHub Profile Stats</h3>
-  <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img alt="AnderssonProgramming's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=highcontrast&hide_border=true" height="180px"/>
-    </a>
-    <br>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img alt="AnderssonProgramming's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&theme=highcontrast&langs_count=10&hide=Jupyter%20Notebook" height="180px"/>
-    </a>
-  </p>
-
-  <h3>📈 Activity Graph</h3>
-  <p align="center">
-    <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-      <img alt="AnderssonProgramming's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AnderssonProgramming&theme=chartreuse-dark&hide_border=true&area=true" />
-    </a>
-  </p>
-
-  <h3>🏆 GitHub Trophies</h3>
-  <p align="center">
-    <!-- TROPHIES -->
-    <div align="center">
-      <img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=algolia&no-frame=true&column=5&margin-w=15" alt="GitHub Trophies" />
-    </div>
-  </p>
-  
-</details>
-
-
-</details>
-
-<details open> 
-  <summary><h2>🚀 Currently Learning</h2></summary>
-  <br>
-  <div align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" alt="Night Chill" width="180px" style="margin:0 10px;"/>
-     <img src="https://user-images.githubusercontent.com/74038190/214375888-0dc62524-fb43-43fd-9479-098b471d1b9c.gif" alt="Flashback" width="135px" style="margin:0 10px;"/>
-    <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="Coding Vibe" width="180px" style="margin:0 10px;"/>
-  </div>
-  <br>
-  <div align="center" style="margin: 20px 0;">
-    <div style="display: inline-block; text-align: left; max-width: 400px;">
-      🤖 <strong>LLMs:</strong> Next-gen conversational AI agents for daily tasks and automation<br>
-      📱 <strong>Android &amp; Kotlin:</strong> Hybrid backend in Android Studio to deploy games<br>
-      🌐 <strong>WebSockets:</strong> Real-time, bidirectional apps using concurrency and paralelism<br>
-      🧠 <strong>Gemini 3 Pro:</strong> Multimodal LLMs, advanced reasoning & API integration<br>
-      🎮 <strong>Unity:</strong> Game development with C#, physics systems & interactive design<br>
-      🔗 <strong>n8n:</strong> Workflow automation, low-code integrations & event-driven pipelines
-    </div>
-  </div>
-
-</details>
-
-<br>
-
-<div align="center" style="margin-top: 40px;">
-  <h3>🔗 Follow me &amp; I’ll follow you back — let’s collaborate!</h3>
-  <img 
-    src="https://user-images.githubusercontent.com/74038190/212284068-b4ee9a5c-331c-4d18-9481-53dd6b9debd5.gif" 
-    alt="Let’s Code" 
-    width="200px" 
-    style="margin: 0 15px;"
-  />
-  <img 
-    src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" 
-    alt="Robot Arm Boogies Hard" 
-    width="200px" 
-    style="margin: 0 15px;"
-  />
 </div>
 
-<div align="center" style="margin-top: 40px;">
-  <img 
-    src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" 
-    alt="Fading Line" 
-    width="100%" 
-    style="max-width:600px;"
-  />
-  <p style="font-style:italic; margin-top:10px;">
-    README inspired by <a href="https://github.com/DenverCoder1" target="_blank">DenverCoder1</a>.  
-    GIFs courtesy of <a href="https://github.com/Anmol-Baranwal" target="_blank">Anmol-Baranwal</a>.
-  </p>
+---
+
+<div align="center">
+
+## 🌟 About Me
+
 </div>
 
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### 💼 Professional Profile
+
+🎓 **Systems Engineering Student**  
+📍 *Escuela Colombiana de Ingeniería Julio Garavito*
+
+🧑‍🏫 **Teaching Assistant**  
+📊 Database Modeling & Object-Oriented Programming
+
+🔍 **Passionate About**
+- Software Architecture & Design Patterns
+- Cloud Computing & DevOps
+- AI/ML Integration & Innovation
+- Collaborative Development
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Core Values
+
+```typescript
+const andersson = {
+  values: ["Discipline", "Dedication", "Teamwork"],
+  traits: ["Leadership", "Passion", "Communication"],
+  lifestyle: {
+    fitness: "Gym enthusiast 💪",
+    sports: "Basketball player 🏀",
+    endurance: "Long-distance runner 🏃",
+    freedom: "Motorcycle rider 🏍️"
+  }
+};
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🎨 Tech Stack Universe
+
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+
+</div>
+
+<details open>
+<summary><b>🎯 Languages & Markup</b></summary>
+<br>
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![XML](https://img.shields.io/badge/XML-E34F26?style=for-the-badge&logo=xml&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>⚡ Frameworks & Libraries</b></summary>
+<br>
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/Bcrypt-338833?style=for-the-badge&logo=lock&logoColor=white)
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & Cloud</b></summary>
+<br>
+
+<div align="center">
+
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=red-hat&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>🤖 AI & Machine Learning</b></summary>
+<br>
+
+<div align="center">
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-CC9B7A?style=for-the-badge&logo=anthropic&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge&logo=groq&logoColor=white)
+
+</div>
+
+</details>
+
+<details>
+<summary><b>🛠️ Tools & DevOps</b></summary>
+<br>
+
+<div align="center">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Desktop](https://img.shields.io/badge/GitHub_Desktop-8034A9?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=github-actions&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+![Photopea](https://img.shields.io/badge/Photopea-18A497?style=for-the-badge&logo=photopea&logoColor=white)
+![OBS Studio](https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obs-studio&logoColor=white)
+![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=opera&logoColor=white)
+![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=brave&logoColor=white)
+![Unsplash](https://img.shields.io/badge/Unsplash-000000?style=for-the-badge&logo=unsplash&logoColor=white)
+![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white)
+![Oh My Posh](https://img.shields.io/badge/Oh_My_Posh-4AB5F1?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=white)
+
+</div>
+
+</details>
+
+---
+
+<div align="center">
+
+## 🚀 Featured Projects
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+
+</div>
+
+<div align="center">
+
+### 💎 Personal Projects
+
+<table>
+<tr>
+<td width="50%">
+
+<h3 align="center">🎮 Tic-Tac-Toe</h3>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/tic-tac-toe" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=tic-tac-toe&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="tic-tac-toe"></a>
+<p>
+<a href="https://github.com/AnderssonProgramming/tic-tac-toe" target="_blank">
+<img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
+</a>  
+</p>
+<p><strong>Interactive game with AI opponent</strong></p>
+</div>
+</td>
+
+<td width="50%">
+
+<h3 align="center">⚙️ Concurrent Web Server</h3>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/concurrent-web-server" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=concurrent-web-server&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="concurrent-web-server"></a>
+<p>
+<a href="https://github.com/AnderssonProgramming/concurrent-web-server" target="_blank">
+<img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
+</a>  
+</p>
+<p><strong>Multi-threaded server architecture</strong></p>
+</div>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+<h3 align="center">📊 Linked Stats Engine</h3>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/linked-stats-engine" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=linked-stats-engine&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="linked-stats-engine"></a>
+<p>
+<a href="https://github.com/AnderssonProgramming/linked-stats-engine" target="_blank">
+<img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
+</a>  
+</p>
+<p><strong>Statistical analysis with linked structures</strong></p>
+</div>
+</td>
+
+<td width="50%">
+
+<h3 align="center">🤖 LLM Application</h3>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/llm-application" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=llm-application&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="llm-application"></a>
+<p>
+<a href="https://github.com/AnderssonProgramming/llm-application" target="_blank">
+<img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
+</a>  
+</p>
+<p><strong>AI-powered conversational interface</strong></p>
+</div>
+</td>
+</tr>
+</table>
+
+<a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
+<img src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Projects-FF8C00?style=for-the-badge&logoColor=white&logo=repo"/>
+</a>
+
+---
+
+### 🤝 Collaborative Projects
+
+<table>
+<tr>
+<td width="33%">
+
+<h4 align="center">Elysium Platform</h4>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/Elysium-Back">
+<img src="https://img.shields.io/badge/Backend-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+</a>
+<a href="https://github.com/AnderssonProgramming/Elysium-Front-React">
+<img src="https://img.shields.io/badge/Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+</a>
+</div>
+</td>
+
+<td width="33%">
+
+<h4 align="center">Prometeo System</h4>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/Prometeo-Back">
+<img src="https://img.shields.io/badge/Backend-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+</a>
+<a href="https://github.com/AnderssonProgramming/ECI-Bienestar-Front">
+<img src="https://img.shields.io/badge/Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+</a>
+</div>
+</td>
+
+<td width="33%">
+
+<h4 align="center">More Projects</h4>
+<div align="center">
+<a href="https://github.com/AnderssonProgramming/Puzzle">
+<img src="https://img.shields.io/badge/Puzzle-FF6C37?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://github.com/AnderssonProgramming/Delizia">
+<img src="https://img.shields.io/badge/Delizia-E92063?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://github.com/AnderssonProgramming/POOB-VS-Zombies">
+<img src="https://img.shields.io/badge/POOB--VS--Zombies-6DB33F?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Analytics
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&hide=Jupyter%20Notebook"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=AnderssonProgramming&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8C00&fire=FF8C00&currStreakLabel=FF8C00" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnderssonProgramming&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FF8C00&line=FF8C00&point=FFFFFF&area=true" alt="Activity Graph"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/>
+</div>
+
+---
+
+<div align="center">
+
+## 🎓 Currently Learning & Exploring
+
+<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="200">
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+🤖 **Large Language Models (LLMs)**  
+*Building conversational AI agents for automation*
+
+📱 **Android Development with Kotlin**  
+*Hybrid backend integration for mobile games*
+
+🌐 **WebSockets & Real-Time Systems**  
+*Concurrent and parallel application architecture*
+
+</td>
+<td width="50%">
+
+🧠 **Gemini 3 Pro Integration**  
+*Multimodal AI with advanced reasoning capabilities*
+
+🎮 **Unity Game Development**  
+*C# physics engines and interactive experiences*
+
+🔗 **n8n Workflow Automation**  
+*Low-code integrations and event-driven pipelines*
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🎯 Let's Connect & Collaborate!
+
+<a href="https://github.com/AnderssonProgramming" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+**💡 Open to collaborations · 🚀 Always learning · 🎯 Problem solver at heart**
+
+<sub>README inspired by [DenverCoder1](https://github.com/DenverCoder1) · GIFs by [Anmol-Baranwal](https://github.com/Anmol-Baranwal)</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+
+</div>
