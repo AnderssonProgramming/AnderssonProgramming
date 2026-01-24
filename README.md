@@ -240,29 +240,29 @@ const andersson = {
 <tr>
 <td width="50%">
 
-<h3 align="center">🎮 Tic-Tac-Toe</h3>
+<h3 align="center">🎭 Gender Quest (PSOC)</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/tic-tac-toe" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=tic-tac-toe&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="tic-tac-toe"></a>
+<a href="https://github.com/AnderssonProgramming/psoc-genericR-culturalC" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=psoc-genericR-culturalC&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="psoc-genericR-culturalC"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/tic-tac-toe" target="_blank">
+<a href="https://github.com/AnderssonProgramming/psoc-genericR-culturalC" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Interactive game with AI opponent</strong></p>
+<p><strong>Gamified educational platform with AI & 3D learning</strong></p>
 </div>
 </td>
 
 <td width="50%">
 
-<h3 align="center">⚙️ Concurrent Web Server</h3>
+<h3 align="center">🏋️ 3D Gym MVP</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/concurrent-web-server" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=concurrent-web-server&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="concurrent-web-server"></a>
+<a href="https://github.com/AnderssonProgramming/gym-mvp" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=gym-mvp&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="gym-mvp"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/concurrent-web-server" target="_blank">
+<a href="https://github.com/AnderssonProgramming/gym-mvp" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Multi-threaded server architecture</strong></p>
+<p><strong>Interactive fitness app using 3D body exploration</strong></p>
 </div>
 </td>
 </tr>
@@ -270,33 +270,34 @@ const andersson = {
 <tr>
 <td width="50%">
 
-<h3 align="center">📊 Linked Stats Engine</h3>
+<h3 align="center">⚛️ Quantum Observables Simulation</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/linked-stats-engine" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=linked-stats-engine&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="linked-stats-engine"></a>
+<a href="https://github.com/AnderssonProgramming/quantum-observables-simulation" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=quantum-observables-simulation&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="quantum-observables-simulation"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/linked-stats-engine" target="_blank">
+<a href="https://github.com/AnderssonProgramming/quantum-observables-simulation" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Statistical analysis with linked structures</strong></p>
+<p><strong>Quantum mechanics simulations with Python & Jupyter</strong></p>
 </div>
 </td>
 
 <td width="50%">
 
-<h3 align="center">🤖 LLM Application</h3>
+<h3 align="center">☁️ Regression AI on AWS</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/llm-application" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=llm-application&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="llm-application"></a>
+<a href="https://github.com/AnderssonProgramming/regression-aws-ai" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=regression-aws-ai&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="regression-aws-ai"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/llm-application" target="_blank">
+<a href="https://github.com/AnderssonProgramming/regression-aws-ai" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>AI-powered conversational interface</strong></p>
+<p><strong>Stellar luminosity prediction with ML on AWS</strong></p>
 </div>
 </td>
 </tr>
 </table>
+
 
 <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
 <img src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Projects-FF8C00?style=for-the-badge&logoColor=white&logo=repo"/>
