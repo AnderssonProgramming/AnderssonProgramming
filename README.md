@@ -184,7 +184,7 @@ const andersson = {
 
 </details>
 
-<details>
+<details open>
 <summary><b>🛠️ Tools & DevOps</b></summary>
 <br>
 
