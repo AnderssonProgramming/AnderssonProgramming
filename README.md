@@ -365,10 +365,10 @@ const andersson = {
 
 </div>
 
-<div align="center">
+<!--<div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&hide=Jupyter%20Notebook"/>
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=AnderssonProgramming&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8C00&fire=FF8C00&currStreakLabel=FF8C00" alt="GitHub Streak"/>
