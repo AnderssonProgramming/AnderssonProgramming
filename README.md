@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Andersson%20Sánchez&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Andersson%20David%20Sánchez%20%Méndez&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
 <!-- Animated Typing -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF8C00&center=true&vCenter=true&random=false&width=800&height=100&lines=Systems+Engineering+Student+%F0%9F%8E%93;Full-Stack+Developer+%F0%9F%92%BB;Teaching+Assistant+%7C+Problem+Solver+%F0%9F%A7%A0;Building+Tomorrow's+Solutions+Today+%F0%9F%9A%80" alt="Typing SVG" /></a>
@@ -240,29 +240,29 @@ const andersson = {
 <tr>
 <td width="50%">
 
-<h3 align="center">🎭 Gender Quest (PSOC)</h3>
+<h3 align="center">✨ TwitterLite Microservices & Auth0 project</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/psoc-genericR-culturalC" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=psoc-genericR-culturalC&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="psoc-genericR-culturalC"></a>
+<a href="https://github.com/AnderssonProgramming/secure-twitter-like-microservice-auth0" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=secure-twitter-like-microservice-auth0&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="psoc-genericR-culturalC"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/psoc-genericR-culturalC" target="_blank">
+<a href="https://github.com/AnderssonProgramming/secure-twitter-like-microservice-auth0" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Gamified educational platform with AI & 3D learning</strong></p>
+<p><strong>An architectural evolution from a Spring Boot Monolith to a Serverless AWS Lambda ecosystem.</strong></p>
 </div>
 </td>
 
 <td width="50%">
 
-<h3 align="center">🏋️ 3D Gym MVP</h3>
+<h3 align="center">⭐ Enterprise-grade RAG system</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/gym-mvp" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=gym-mvp&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="gym-mvp"></a>
+<a href="https://github.com/AnderssonProgramming/rag-langchain-openai-pinecone" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=rag-langchain-openai-pinecone&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="gym-mvp"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/gym-mvp" target="_blank">
+<a href="https://github.com/AnderssonProgramming/rag-langchain-openai-pinecone" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Interactive fitness app using 3D body exploration</strong></p>
+<p><strong>A modular LangChain pipeline with HuggingFace local embeddings and Pinecone vector storage </strong></p>
 </div>
 </td>
 </tr>
@@ -270,29 +270,29 @@ const andersson = {
 <tr>
 <td width="50%">
 
-<h3 align="center">⚛️ Quantum Observables Simulation</h3>
+<h3 align="center">🍲 Cocina para Uno - Dynamic recipe</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/quantum-observables-simulation" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=quantum-observables-simulation&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="quantum-observables-simulation"></a>
+<a href="https://github.com/AnderssonProgramming/cda-front-developer" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=cda-front-developer&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="quantum-observables-simulation"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/quantum-observables-simulation" target="_blank">
+<a href="https://github.com/AnderssonProgramming/cda-front-developer" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Quantum mechanics simulations with Python & Jupyter</strong></p>
+<p><strong>Designed for solo cooks, it supports CRUD recipes </strong></p>
 </div>
 </td>
 
 <td width="50%">
 
-<h3 align="center">☁️ Regression AI on AWS</h3>
+<h3 align="center">☁️ A stock tracking system using Maven</h3>
 <div align="center">
-<a href="https://github.com/AnderssonProgramming/regression-aws-ai" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=regression-aws-ai&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="regression-aws-ai"></a>
+<a href="https://github.com/AnderssonProgramming/stock-products" target="_blank"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=AnderssonProgramming&repo=stock-products&theme=tokyonight&bg_color=1F222E&title_color=FF8C00&hide_border=true&icon_color=F8D866&show_icons=true" alt="regression-aws-ai"></a>
 <p>
-<a href="https://github.com/AnderssonProgramming/regression-aws-ai" target="_blank">
+<a href="https://github.com/AnderssonProgramming/stock-products" target="_blank">
 <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>  
 </p>
-<p><strong>Stellar luminosity prediction with ML on AWS</strong></p>
+<p><strong>Uses Observer pattern for real-time notifications on stock changes.</strong></p>
 </div>
 </td>
 </tr>
@@ -365,10 +365,10 @@ const andersson = {
 
 </div>
 
-<!--<div align="center">
+<div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&hide=Jupyter%20Notebook"/>
-</div> -->
+</div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=AnderssonProgramming&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8C00&fire=FF8C00&currStreakLabel=FF8C00" alt="GitHub Streak"/>
@@ -378,9 +378,9 @@ const andersson = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnderssonProgramming&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FF8C00&line=FF8C00&point=FFFFFF&area=true" alt="Activity Graph"/>
 </div>
 
-<!-- <div align="center"> -->
-<!--<img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/> -->
-<!--</div> -->
+<div align="center"> 
+  <img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/> 
+</div> 
 
 ---
 
