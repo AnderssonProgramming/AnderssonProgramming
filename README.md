@@ -366,8 +366,8 @@ const andersson = {
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&hide=Jupyter%20Notebook"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&hide=Jupyter%20Notebook"/>
 </div>
 
 <div align="center">
@@ -378,9 +378,9 @@ const andersson = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnderssonProgramming&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FF8C00&line=FF8C00&point=FFFFFF&area=true" alt="Activity Graph"/>
 </div>
 
-<div align="center"> 
-  <img src="https://github-profile-trophy.vercel.app/?username=AnderssonProgramming&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/> 
-</div> 
+<div align="center">
+  <img src="https://trophy.ryglcloud.net/?username=AnderssonProgramming&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/>
+</div>
 
 ---
 
