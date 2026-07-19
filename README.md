@@ -35,6 +35,9 @@
 
 ### 💼 Professional Profile
 
+💜 **Custom Sofware Engineering Associate**  
+🧪 QA Support as Accenture intern
+
 🎓 **Systems Engineering Student**  
 📍 *Escuela Colombiana de Ingeniería Julio Garavito*
 
