@@ -44,11 +44,7 @@
 🧑‍🏫 **Teaching Assistant**  
 📊 Database Modeling & Object-Oriented Programming
 
-🔍 **Passionate About**
-- Software Architecture & Design Patterns
-- Cloud Computing & DevOps
-- AI/ML Integration & Innovation
-- Collaborative Development
+🔍 Collaborative Development & Innovation
 
 </td>
 <td width="50%" valign="top">
@@ -64,6 +60,7 @@ const andersson = {
     sports: "Basketball player 🏀",
     endurance: "Long-distance runner 🏃",
     freedom: "Motorcycle rider 🏍️"
+    party: "Dancer lover 🕺"
   }
 };
 ```
