@@ -59,7 +59,7 @@ const andersson = {
     fitness: "Gym enthusiast 💪",
     sports: "Basketball player 🏀",
     endurance: "Long-distance runner 🏃",
-    freedom: "Motorcycle rider 🏍️"
+    freedom: "Motorcycle rider 🏍️",
     party: "Dancer lover 🕺"
   }
 };
