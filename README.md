@@ -41,7 +41,7 @@
 🎓 **Systems Engineering Student**  
 📍 *Escuela Colombiana de Ingeniería Julio Garavito*
 
-🧑‍🏫 **Teaching Assistant**  
+🧑‍🏫 **Teaching and Research Assistant**  
 📊 Database Modeling & Object-Oriented Programming
 
 🔍 Collaborative Development & Innovation
