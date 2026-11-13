@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" preserveAspectRatio="none" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="w" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FF8C00"/>
+      <stop offset=".5" stop-color="#FF3D81"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="140"/></clipPath>
+  </defs>
+  <style>
+    .w { animation: flow 14s linear infinite; }
+    .w.b { animation-duration: 20s; animation-direction: reverse; }
+    .w.c { animation-duration: 28s; }
+    @keyframes flow { to { transform: translateX(-1200px); } }
+    @media (prefers-reduced-motion: reduce) { .w { animation: none; } }
+  </style>
+  <g clip-path="url(#c)" fill="url(#w)">
+    <path class="w c" opacity=".22" d="M0 60 Q150 20 300 60 T600 60 T900 60 T1200 60 T1500 60 T1800 60 T2100 60 T2400 60 V140 H0Z"/>
+    <path class="w b" opacity=".4" d="M0 82 Q150 50 300 82 T600 82 T900 82 T1200 82 T1500 82 T1800 82 T2100 82 T2400 82 V140 H0Z"/>
+    <path class="w" opacity=".85" d="M0 104 Q150 80 300 104 T600 104 T900 104 T1200 104 T1500 104 T1800 104 T2100 104 T2400 104 V140 H0Z"/>
+  </g>
+</svg>
