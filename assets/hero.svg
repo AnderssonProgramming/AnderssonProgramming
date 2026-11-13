@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Andersson David Sánchez Méndez — Full-Stack Developer</title>
+  <desc id="d">Animated banner: Full-Stack Developer, QA and Software Engineering at Accenture, Systems Engineering student at ECI, Teaching and Research Assistant, based in Bogotá, Colombia.</desc>
+
+  <defs>
+    <clipPath id="card"><rect width="1200" height="440" rx="28"/></clipPath>
+
+    <linearGradient id="brand" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="560" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FF8C00"/>
+      <stop offset=".5" stop-color="#FF3D81"/>
+      <stop offset="1" stop-color="#A855F7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="992 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8C00" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity=".7"/>
+    </linearGradient>
+
+    <radialGradient id="fade" cx=".5" cy=".5" r=".75">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="440" fill="url(#fade)"/></mask>
+
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#FFFFFF"/>
+    </pattern>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+    .orb { animation: drift 16s ease-in-out infinite; }
+    .orb.b { animation-duration: 20s; animation-direction: reverse; }
+    .orb.c { animation-duration: 24s; animation-delay: -6s; }
+    @keyframes drift {
+      0%, 100% { transform: translate(0, 0); }
+      33% { transform: translate(70px, -30px); }
+      66% { transform: translate(-50px, 40px); }
+    }
+
+    .pulse { animation: pulse 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: .7; }
+      100% { transform: scale(3.2); opacity: 0; }
+    }
+
+    .rise { opacity: 0; animation: rise .8s cubic-bezier(.2, .8, .2, 1) forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+    .d4 { animation-delay: .6s; } .d5 { animation-delay: .8s; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .role { opacity: 0; animation: role 15s linear infinite; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; } .r5 { animation-delay: 12s; }
+    @keyframes role {
+      0% { opacity: 0; transform: translateY(12px); }
+      3%, 17% { opacity: 1; transform: translateY(0); }
+      20%, 100% { opacity: 0; transform: translateY(-12px); }
+    }
+
+    .ln { opacity: 0; animation: show .01s linear forwards; }
+    .l1 { animation-delay: 1.2s; } .l2 { animation-delay: 1.8s; } .l3 { animation-delay: 2.6s; }
+    .l4 { animation-delay: 3.2s; } .l5 { animation-delay: 4.0s; } .l6 { animation-delay: 4.6s; }
+    .l7 { animation-delay: 4.9s; } .l8 { animation-delay: 5.2s; } .l9 { animation-delay: 5.8s; }
+    @keyframes show { to { opacity: 1; } }
+
+    .caret { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .orb, .pulse, .caret { animation: none; }
+      .rise, .ln { animation: none; opacity: 1; }
+      .role { animation: none; }
+      .role.r1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="#0D1117"/>
+
+    <!-- ambient light -->
+    <g filter="url(#blur)" opacity=".55">
+      <circle class="orb" cx="170" cy="60" r="150" fill="#FF8C00"/>
+      <circle class="orb b" cx="1040" cy="400" r="170" fill="#A100FF"/>
+      <circle class="orb c" cx="640" cy="470" r="120" fill="#FF3D81"/>
+    </g>
+    <rect width="1200" height="440" fill="#0D1117" opacity=".45"/>
+    <rect width="1200" height="440" fill="url(#dots)" opacity=".13" mask="url(#gridMask)"/>
+
+    <!-- status pill -->
+    <g class="rise d1">
+      <rect x="64" y="56" width="356" height="38" rx="19" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <circle class="pulse" cx="84" cy="75" r="4" fill="#3FB950"/>
+      <circle cx="84" cy="75" r="4" fill="#3FB950"/>
+      <text x="102" y="81" class="sans" font-size="16" fill="#C9D1D9" letter-spacing=".2">Open to collaborate  ·  Bogotá, Colombia</text>
+    </g>
+
+    <!-- name -->
+    <text x="62" y="170" class="sans rise d2" font-size="62" font-weight="800" fill="#F0F6FC" letter-spacing="-1.5">Andersson David</text>
+    <text x="62" y="240" class="sans rise d3" font-size="62" font-weight="800" fill="url(#brand)" letter-spacing="-1.5">Sánchez Méndez</text>
+
+    <!-- rotating role -->
+    <g class="rise d4">
+      <text x="64" y="298" class="mono" font-size="22" fill="#FF8C00">&gt;</text>
+      <g class="mono" font-size="22" fill="#E6EDF3">
+        <text x="90" y="298" class="role r1">Full-Stack Developer</text>
+        <text x="90" y="298" class="role r2">QA · Software Engineering @ Accenture</text>
+        <text x="90" y="298" class="role r3">Systems Engineering Student @ ECI</text>
+        <text x="90" y="298" class="role r4">Teaching &amp; Research Assistant</text>
+        <text x="90" y="298" class="role r5">Agentic AI &amp; Cloud Builder</text>
+      </g>
+    </g>
+
+    <!-- core values -->
+    <g class="sans rise d5" font-size="15.5" font-weight="600" fill="#E6EDF3">
+      <rect x="64" y="338" width="122" height="36" rx="18" fill="#FF8C00" fill-opacity=".12" stroke="#FF8C00" stroke-opacity=".55"/>
+      <circle cx="84" cy="356" r="4" fill="#FF8C00"/>
+      <text x="97" y="361">Discipline</text>
+
+      <rect x="198" y="338" width="128" height="36" rx="18" fill="#FF3D81" fill-opacity=".12" stroke="#FF3D81" stroke-opacity=".55"/>
+      <circle cx="218" cy="356" r="4" fill="#FF3D81"/>
+      <text x="231" y="361">Dedication</text>
+
+      <rect x="338" y="338" width="124" height="36" rx="18" fill="#A855F7" fill-opacity=".12" stroke="#A855F7" stroke-opacity=".55"/>
+      <circle cx="358" cy="356" r="4" fill="#A855F7"/>
+      <text x="371" y="361">Teamwork</text>
+    </g>
+
+    <!-- terminal -->
+    <g class="rise d4">
+      <rect x="700" y="64" width="436" height="312" rx="14" fill="#010409" fill-opacity=".82" stroke="#FFFFFF" stroke-opacity=".12"/>
+      <path d="M700 104h436" stroke="#FFFFFF" stroke-opacity=".08"/>
+      <circle cx="724" cy="84" r="6" fill="#FF5F57"/>
+      <circle cx="744" cy="84" r="6" fill="#FEBC2E"/>
+      <circle cx="764" cy="84" r="6" fill="#28C840"/>
+      <text x="918" y="89" text-anchor="middle" class="mono" font-size="13.5" fill="#8B949E">ander@bogota: ~</text>
+
+      <g class="mono" font-size="16">
+        <text x="722" y="138" class="ln l1"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> whoami</tspan></text>
+        <text x="722" y="162" class="ln l2" fill="#8B949E">full-stack dev · QA @ Accenture</text>
+        <text x="722" y="194" class="ln l3"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> cat focus.txt</tspan></text>
+        <text x="722" y="218" class="ln l4" fill="#8B949E">agentic AI · cloud · DevSecOps</text>
+        <text x="722" y="250" class="ln l5"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> git log --oneline -3</tspan></text>
+        <text x="722" y="274" class="ln l6"><tspan fill="#D2A8FF">a1f9c2e</tspan><tspan fill="#8B949E"> feat: ship with discipline</tspan></text>
+        <text x="722" y="298" class="ln l7"><tspan fill="#D2A8FF">7be04d1</tspan><tspan fill="#8B949E"> test: break it before prod does</tspan></text>
+        <text x="722" y="322" class="ln l8"><tspan fill="#D2A8FF">c3d5e88</tspan><tspan fill="#8B949E"> docs: teach what you learn</tspan></text>
+        <g class="ln l9">
+          <text x="722" y="354" fill="#FF8C00">$</text>
+          <rect class="caret" x="742" y="340" width="10" height="18" fill="#E6EDF3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <rect x=".75" y=".75" width="1198.5" height="438.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

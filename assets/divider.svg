@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 12" width="1200" height="12" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FF8C00" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#FF8C00"/>
+      <stop offset=".5" stop-color="#FF3D81"/>
+      <stop offset=".75" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .glint { animation: sweep 5s ease-in-out infinite; }
+    @keyframes sweep {
+      0% { transform: translateX(150px); opacity: 0; }
+      15%, 85% { opacity: 1; }
+      100% { transform: translateX(930px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .glint { animation: none; opacity: 0; } }
+  </style>
+  <rect x="0" y="5" width="1200" height="2" rx="1" fill="url(#line)"/>
+  <rect class="glint" x="0" y="5" width="120" height="2" rx="1" fill="url(#glint)"/>
+</svg>
