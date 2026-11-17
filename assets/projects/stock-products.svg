@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240" role="img" aria-labelledby="t d">
+  <title id="t">Stock Products</title>
+  <desc id="d">Stock tracking built on the Observer pattern for real-time change notifications. Built with Java, Maven, Observer. Main language: Java.</desc>
+  <defs>
+    <clipPath id="c"><rect width="480" height="240" rx="18"/></clipPath>
+    <radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#FF3D81" stop-opacity=".24"/><stop offset="1" stop-color="#FF3D81" stop-opacity="0"/></radialGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF3D81" stop-opacity=".7"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".08"/></linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .glow { animation: glow 6s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .45; } }
+    @media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="480" height="240" fill="#0D1117"/>
+    <rect class="glow" width="480" height="240" fill="url(#g)"/>
+  </g>
+  <rect x=".75" y=".75" width="478.5" height="238.5" rx="17.25" fill="none" stroke="url(#b)" stroke-width="1.5"/>
+  <text x="28" y="44" class="mono" font-size="11.5" fill="#FF3D81" letter-spacing="1.2">JAVA · DESIGN PATTERNS</text>
+  <path d="M438 34 L450 22 M441 22 H450 V31" fill="none" stroke="#8B949E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="28" y="82" class="sans" font-size="23" font-weight="700" fill="#F0F6FC">Stock Products</text>
+  <text x="28" y="113" class="sans" font-size="15" fill="#8B949E">Stock tracking built on the Observer pattern</text>
+  <text x="28" y="135" class="sans" font-size="15" fill="#8B949E">for real-time change notifications.</text>
+  <rect x="28" y="166" width="52" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="54.0" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">Java</text><rect x="88" y="166" width="59" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="117.5" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">Maven</text><rect x="155" y="166" width="81" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="195.5" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">Observer</text>
+  <circle cx="34" cy="216" r="5" fill="#B07219"/>
+  <text x="46" y="220.5" class="sans" font-size="13" fill="#8B949E">Java</text>
+</svg>
