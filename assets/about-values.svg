@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Core values</title>
+  <desc id="d">Values: Discipline, Dedication, Teamwork. Traits: Leadership, Passion, Communication. Off the keyboard: gym enthusiast, basketball player, long-distance runner, motorcycle rider, dance lover.</desc>
+
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF3D81" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#FF3D81" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="600" height="420" rx="20"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.4s cubic-bezier(.6, 0, .2, 1) forwards; }
+    .a { animation-delay: .2s; } .b { animation-delay: .7s; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    .f1 { animation-delay: .9s; } .f2 { animation-delay: 1.4s; } .f3 { animation-delay: 1.8s; }
+    @keyframes fade { to { opacity: 1; } }
+    .breathe { animation: breathe 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes breathe { 50% { transform: scale(1.18); opacity: .6; } }
+    .node { animation: node 3s ease-in-out infinite; }
+    .n2 { animation-delay: .5s; } .n3 { animation-delay: 1s; } .n4 { animation-delay: 1.5s; } .n5 { animation-delay: 2s; } .n6 { animation-delay: 2.5s; }
+    @keyframes node { 0%, 70%, 100% { stroke-width: 0; } 85% { stroke-width: 8; } }
+    @media (prefers-reduced-motion: reduce) {
+      .draw { animation: none; stroke-dashoffset: 0; }
+      .fade { animation: none; opacity: 1; }
+      .breathe, .node { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="600" height="420" fill="#0D1117"/>
+    <rect width="600" height="420" fill="url(#glow)"/>
+  </g>
+  <rect x=".5" y=".5" width="599" height="419" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity=".12"/>
+
+  <text x="36" y="46" class="mono" font-size="13" fill="#8B949E">values.ts</text>
+  <text x="36" y="76" class="sans" font-size="22" font-weight="700" fill="#F0F6FC">Core Values</text>
+
+  <!-- legend -->
+  <g class="mono" font-size="12">
+    <circle cx="474" cy="42" r="5" fill="#FF8C00"/>
+    <text x="486" y="46" fill="#C9D1D9">values</text>
+    <circle cx="474" cy="64" r="5" fill="#A855F7"/>
+    <text x="486" y="68" fill="#C9D1D9">traits</text>
+  </g>
+
+  <!-- hexagram: values triangle + traits triangle -->
+  <circle class="breathe" cx="300" cy="182" r="46" fill="url(#core)"/>
+  <path class="draw a" pathLength="1" d="M300 92 L377.9 227 L222.1 227 Z" fill="#FF8C00" fill-opacity=".06" stroke="#FF8C00" stroke-width="2" stroke-linejoin="round"/>
+  <path class="draw b" pathLength="1" d="M300 272 L222.1 137 L377.9 137 Z" fill="#A855F7" fill-opacity=".06" stroke="#A855F7" stroke-width="2" stroke-linejoin="round"/>
+  <text x="300" y="187" text-anchor="middle" class="mono fade f1" font-size="13" font-weight="700" fill="#F0F6FC" letter-spacing="3">ADSM</text>
+
+  <g class="fade f1">
+    <circle class="node"    cx="300"   cy="92"  r="6" fill="#FF8C00" stroke="#FF8C00" stroke-opacity=".3"/>
+    <circle class="node n3" cx="377.9" cy="227" r="6" fill="#FF8C00" stroke="#FF8C00" stroke-opacity=".3"/>
+    <circle class="node n5" cx="222.1" cy="227" r="6" fill="#FF8C00" stroke="#FF8C00" stroke-opacity=".3"/>
+    <circle class="node n4" cx="300"   cy="272" r="6" fill="#A855F7" stroke="#A855F7" stroke-opacity=".3"/>
+    <circle class="node n6" cx="222.1" cy="137" r="6" fill="#A855F7" stroke="#A855F7" stroke-opacity=".3"/>
+    <circle class="node n2" cx="377.9" cy="137" r="6" fill="#A855F7" stroke="#A855F7" stroke-opacity=".3"/>
+  </g>
+
+  <g class="sans fade f2" font-size="15" font-weight="600">
+    <text x="300" y="76"  text-anchor="middle" fill="#FFB35C">Discipline</text>
+    <text x="394" y="232" fill="#FFB35C">Dedication</text>
+    <text x="206" y="232" text-anchor="end" fill="#FFB35C">Teamwork</text>
+    <text x="300" y="296" text-anchor="middle" fill="#C99BFA">Leadership</text>
+    <text x="206" y="142" text-anchor="end" fill="#C99BFA">Passion</text>
+    <text x="394" y="142" fill="#C99BFA">Communication</text>
+  </g>
+
+  <!-- lifestyle -->
+  <g class="fade f3">
+    <path d="M36 326 H564" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="36" y="318" class="mono" font-size="12" fill="#8B949E">off the keyboard</text>
+
+    <g fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- gym -->
+      <g transform="translate(90 360)" stroke="#FF8C00">
+        <path d="M-9 0 H9 M-14 -7 V7 M-10 -11 V11 M14 -7 V7 M10 -11 V11"/>
+      </g>
+      <!-- basketball -->
+      <g transform="translate(195 360)" stroke="#FF6A3D">
+        <circle r="12"/>
+        <path d="M0 -12 V12 M-12 0 H12 M-8 -9 Q-3 0 -8 9 M8 -9 Q3 0 8 9"/>
+      </g>
+      <!-- long-distance route -->
+      <g transform="translate(300 360)" stroke="#FF3D81">
+        <path d="M-14 8 C-6 8 -6 -8 2 -8 S10 4 14 -6" stroke-dasharray="3 3"/>
+        <circle cx="-14" cy="8" r="2.5" fill="#FF3D81"/>
+        <circle cx="14" cy="-6" r="2.5" fill="#FF3D81"/>
+      </g>
+      <!-- motorcycle -->
+      <g transform="translate(405 360)" stroke="#D44CC0">
+        <circle cx="-10" cy="5" r="6"/>
+        <circle cx="10" cy="5" r="6"/>
+        <path d="M-10 5 L-3 -5 H5 L10 5 M5 -5 L8 -10 H12"/>
+      </g>
+      <!-- dance -->
+      <g transform="translate(510 360)" stroke="#A855F7">
+        <path d="M-5 8 V-10 L9 -13 V5"/>
+        <circle cx="-8.5" cy="8" r="3.5" fill="#A855F7"/>
+        <circle cx="5.5" cy="5" r="3.5" fill="#A855F7"/>
+      </g>
+    </g>
+
+    <g class="sans" font-size="13" fill="#C9D1D9" text-anchor="middle">
+      <text x="90" y="398">Gym</text>
+      <text x="195" y="398">Basketball</text>
+      <text x="300" y="398">Long-distance</text>
+      <text x="405" y="398">Motorcycle</text>
+      <text x="510" y="398">Dancing</text>
+    </g>
+  </g>
+</svg>

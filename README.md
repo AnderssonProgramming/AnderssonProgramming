@@ -26,11 +26,11 @@
 <br/><br/>
 
 <a href="#-about-me">About</a> ·
-<a href="#-how-i-build">How I build</a> ·
+<a href="#-under-the-hood">Under the hood</a> ·
 <a href="#-tech-stack-universe">Stack</a> ·
 <a href="#-featured-projects">Projects</a> ·
+<a href="#-coursework-in-the-open">Coursework</a> ·
 <a href="#-github-analytics">Analytics</a> ·
-<a href="#-currently-learning--exploring">Learning</a> ·
 <a href="#-lets-connect--collaborate">Connect</a>
 
 </div>
@@ -39,110 +39,40 @@
 
 ## 🌟 About Me
 
-I build products end to end — from the first Figma frame to the pipeline that ships it — and then I try to break them before production does. By day I work in **QA and custom software engineering at Accenture**; by night I'm finishing **Systems Engineering at ECI**, teaching the next cohort how to model databases and think in objects, and building **agentic AI systems** in the open.
+<p align="center">
+  <a href="https://www.linkedin.com/in/anderssonsm/"><img src="./assets/about-profile.svg" width="49%" alt="Professional Profile: Custom Software Engineering Associate, QA Support as Accenture intern. Systems Engineering Student at Escuela Colombiana de Ingeniería Julio Garavito. Teaching and Research Assistant in Database Modeling and Object-Oriented Programming. Collaborative Development and Innovation."/></a>
+  <img src="./assets/about-values.svg" width="49%" alt="Core Values: Discipline, Dedication and Teamwork. Traits: Leadership, Passion and Communication. Off the keyboard: gym, basketball, long-distance running, motorcycle riding and dancing."/>
+</p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 💼 Professional Profile
-
-💜 **Custom Software Engineering Associate**  
-🧪 QA Support as Accenture intern
-
-🎓 **Systems Engineering Student**  
-📍 *Escuela Colombiana de Ingeniería Julio Garavito*
-
-🧑‍🏫 **Teaching and Research Assistant**  
-📊 Database Modeling & Object-Oriented Programming
-
-🔍 Collaborative Development & Innovation
-
-</td>
-<td width="50%" valign="top">
-
-### ⚡ Core Values
+<details>
+<summary><code>$ node -e "console.log(andersson)"</code> &nbsp;<sub>click to run</sub></summary>
 
 ```typescript
 const andersson = {
+  role: "Custom Software Engineering Associate · QA Support @ Accenture",
+  studies: "Systems Engineering @ Escuela Colombiana de Ingeniería Julio Garavito",
+  teaching: ["Database Modeling", "Object-Oriented Programming"],
   values: ["Discipline", "Dedication", "Teamwork"],
   traits: ["Leadership", "Passion", "Communication"],
   lifestyle: {
-    fitness: "Gym enthusiast 💪",
-    sports: "Basketball player 🏀",
-    endurance: "Long-distance runner 🏃",
-    freedom: "Motorcycle rider 🏍️",
-    party: "Dancer lover 🕺"
+    fitness: "Gym enthusiast",
+    sports: "Basketball player",
+    endurance: "Long-distance runner",
+    freedom: "Motorcycle rider",
+    party: "Dancer lover"
   }
 };
 ```
 
-</td>
-</tr>
-</table>
-
-### 🧭 What I bring to a team
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**🎨 Product-minded UI**
-
-Interfaces that feel calm and obvious: design tokens, motion with purpose, responsive by default.
-
-</td>
-<td width="25%" valign="top">
-
-**⚙️ Solid backends**
-
-REST, microservices and serverless on Spring Boot, NestJS and FastAPI — secured with JWT, OAuth 2.0 and Auth0.
-
-</td>
-<td width="25%" valign="top">
-
-**🤖 Agentic AI**
-
-Multi-agent pipelines, RAG and coding-agent harnesses with Claude, LangGraph, LangChain and local models.
-
-</td>
-<td width="25%" valign="top">
-
-**🛡️ A QA mindset**
-
-Tests first, DevSecOps always: SAST, DAST, threat modeling and CI gates that say no when they should.
-
-</td>
-</tr>
-</table>
+</details>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## 🔁 How I build
+## 🔬 Under the Hood
 
-Every project follows the same loop — and the quality gate is not optional.
+A look inside one system I built — the agents, the loop and the gate, as they run on every pull request.
 
-```mermaid
-flowchart LR
-    design(["🎨 Design<br/>Figma · UX flows"]) --> front["🖥️ Frontend<br/>React · Next.js · Angular"]
-    front --> api["⚙️ APIs<br/>Spring Boot · NestJS · FastAPI"]
-    api --> data[("🗄️ Data<br/>PostgreSQL · MongoDB · Redis")]
-    api --> ai["🤖 AI layer<br/>LLM agents · RAG"]
-    data --> cloud["☁️ Cloud<br/>AWS · Azure · Docker"]
-    ai --> cloud
-    cloud --> gate{{"🧪 Quality gate<br/>Tests · DevSecOps · CI/CD"}}
-    gate -->|ship| prod([🚀 Production])
-    gate -.->|feedback| design
-
-    classDef orange fill:#FF8C00,stroke:#FF8C00,color:#0D1117,font-weight:bold
-    classDef pink fill:#FF3D81,stroke:#FF3D81,color:#FFFFFF,font-weight:bold
-    classDef purple fill:#8B3DF0,stroke:#8B3DF0,color:#FFFFFF,font-weight:bold
-    classDef dark fill:#1F222E,stroke:#FF8C00,color:#FFFFFF
-    class design,prod orange
-    class front pink
-    class api,data,ai,cloud purple
-    class gate dark
-```
+<a href="https://github.com/AnderssonProgramming/agentic-security-auditor"><img src="./assets/auditor-flow.svg" width="100%" alt="agentic-security-auditor pipeline: Scan, Triage, Fix and Validate in a retry loop, a Quality Gate with CLEAN, REMEDIATED or BLOCKED verdicts, Deploy only on CLEAN, then Report."/></a>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -330,110 +260,34 @@ The tools I reach for first, by layer. The complete inventory is one click below
 
 ### 💎 Personal Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ [Agentic Security Auditor](https://github.com/AnderssonProgramming/agentic-security-auditor)
-
-A multi-agent security auditor for Node.js/TypeScript repos. It scans with npm audit, Trivy, Semgrep and Gitleaks, triages by CVSS, **auto-patches and validates the fixes**, then gates deployment in CI.
-
-<code>Python</code> <code>LangGraph</code> <code>Claude</code> <code>DevSecOps</code> <code>GitHub Actions</code>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎧 [Macenplast Voice Picking](https://github.com/AnderssonProgramming/macenplast-voice-picking)
-
-Voice-guided warehouse picking: spoken Spanish instructions over a Bluetooth headset, barcode confirmation with **Poka-Yoke blocking**, and an offline-capable PWA.
-
-<code>FastAPI</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code> <code>ElevenLabs</code>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ✨ [TwitterLite Microservices & Auth0](https://github.com/AnderssonProgramming/secure-twitter-like-microservice-auth0)
-
-An architectural evolution from a **Spring Boot monolith to a serverless AWS Lambda ecosystem**, secured with Auth0 and backed by DynamoDB and API Gateway.
-
-<code>Java 17</code> <code>Spring Boot 3</code> <code>AWS Lambda</code> <code>DynamoDB</code> <code>Auth0</code>
-
-</td>
-<td width="50%" valign="top">
-
-#### ⭐ [Enterprise-grade RAG System](https://github.com/AnderssonProgramming/rag-langchain-openai-pinecone)
-
-A modular LangChain pipeline with **HuggingFace local embeddings** and Pinecone vector storage.
-
-<code>Python</code> <code>LangChain</code> <code>OpenAI</code> <code>Pinecone</code> <code>HuggingFace</code>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 👁️ [Digital Wellbeing Cloud Architecture](https://github.com/AnderssonProgramming/digital-wellbeing-cloud-architecture)
-
-A distributed, event-driven platform to mitigate Computer Vision Syndrome: Kotlin edge ingestion, **Kafka streaming**, FastAPI microservices and XGBoost inference, provisioned with Terraform.
-
-<code>Kafka</code> <code>FastAPI</code> <code>Kotlin</code> <code>XGBoost</code> <code>Terraform</code> <code>EKS</code>
-
-</td>
-<td width="50%" valign="top">
-
-#### 💪 [Gym MVP — 3D Fitness App](https://github.com/AnderssonProgramming/gym-mvp)
-
-Explore exercises by selecting body zones on an **interactive 3D model**, with sets, reps and media guides. Built by someone who actually goes to the gym.
-
-<code>Next.js</code> <code>React Three Fiber</code> <code>Tailwind CSS</code> <code>TypeScript</code>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🍲 [Cocina para Uno — Dynamic Recipes](https://github.com/AnderssonProgramming/cda-front-developer)
-
-Designed for solo cooks, it supports CRUD recipes — create, edit and favorite them with **real-time search**, category filters and local persistence. No backend required.
-
-<code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>localStorage</code>
-
-</td>
-<td width="50%" valign="top">
-
-#### ☁️ [Stock Products — Tracking with Maven](https://github.com/AnderssonProgramming/stock-products)
-
-A stock tracking system that uses the **Observer pattern** for real-time notifications on stock changes.
-
-<code>Java</code> <code>Maven</code> <code>Design Patterns</code>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/AnderssonProgramming/agentic-security-auditor"><img src="./assets/projects/agentic-security-auditor.svg" width="49%" alt="Agentic Security Auditor"/></a>
+  <a href="https://github.com/AnderssonProgramming/macenplast-voice-picking"><img src="./assets/projects/macenplast-voice-picking.svg" width="49%" alt="Macenplast Voice Picking"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/AnderssonProgramming/secure-twitter-like-microservice-auth0"><img src="./assets/projects/secure-twitter-like-microservice-auth0.svg" width="49%" alt="TwitterLite Microservices and Auth0"/></a>
+  <a href="https://github.com/AnderssonProgramming/rag-langchain-openai-pinecone"><img src="./assets/projects/rag-langchain-openai-pinecone.svg" width="49%" alt="Enterprise-grade RAG system"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/AnderssonProgramming/digital-wellbeing-cloud-architecture"><img src="./assets/projects/digital-wellbeing-cloud-architecture.svg" width="49%" alt="Digital Wellbeing Cloud Architecture"/></a>
+  <a href="https://github.com/AnderssonProgramming/gym-mvp"><img src="./assets/projects/gym-mvp.svg" width="49%" alt="Gym MVP, a 3D fitness app"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/AnderssonProgramming/cda-front-developer"><img src="./assets/projects/cda-front-developer.svg" width="49%" alt="Cocina para Uno, dynamic recipes"/></a>
+  <a href="https://github.com/AnderssonProgramming/stock-products"><img src="./assets/projects/stock-products.svg" width="49%" alt="Stock Products, tracking with Maven"/></a>
+</p>
 
 <details>
-<summary><b>🔭 More to explore — agents, security, ML and product experiments</b></summary>
+<summary><b>More to explore</b></summary>
 <br>
 
-| Area | Project | What it is |
-|:--|:--|:--|
-| 🤖 Agents | [agentic-harness](https://github.com/AnderssonProgramming/agentic-harness) | Compass, an onboarding assistant for junior devs, built under an AI harness where the coding agent works to a written contract |
-| 🤖 Agents | [UI-Physician](https://github.com/AnderssonProgramming/UI-Physician) | Agent skill that diagnoses and repairs Android layout crashes from a Logcat dump, with a bounded self-correction loop |
-| 🤖 Agents | [agentState-Orchestrator](https://github.com/AnderssonProgramming/agentState-Orchestrator) | State management and orchestration plan for a lead agent and three sub-agents under context-window limits |
-| 🤖 Agents | [agent-constitution](https://github.com/AnderssonProgramming/agent-constitution) | A CLAUDE.md "constitution" defining an AI coding agent's identity, rules and slash commands |
-| 🤖 Agents | [local-ai-harness](https://github.com/AnderssonProgramming/local-ai-harness) | Stress test of how far Phi-3-mini on CPU-only Ollama can go before context limits break multi-file reasoning |
-| 🛡️ Security | [devsecops-threat-monitor](https://github.com/AnderssonProgramming/devsecops-threat-monitor) | Shift-left and shift-right lifecycle with Falco, OWASP ZAP, Prometheus, Grafana and Loki |
-| 🛡️ Security | [automated-recon-toolkit](https://github.com/AnderssonProgramming/automated-recon-toolkit) | Asyncio port scanner, Nmap XML parsing and 3-sigma log anomaly detection |
-| 🛡️ Security | [secure-application-design](https://github.com/AnderssonProgramming/secure-application-design) | Split-server architecture on AWS EC2 with end-to-end HTTPS and BCrypt authentication |
-| 🔬 ML & Science | [exoplanet-ml-classifier](https://github.com/AnderssonProgramming/exoplanet-ml-classifier) | Reproducible pipeline that vets NASA Kepler Objects of Interest with Scikit-Learn and XGBoost |
-| 🔬 ML & Science | [cnn-architectural-aws-ai](https://github.com/AnderssonProgramming/cnn-architectural-aws-ai) | CNN vs. dense networks for Mars surface classification, run on AWS SageMaker |
-| 🔬 ML & Science | [quantum-observables-simulation](https://github.com/AnderssonProgramming/quantum-observables-simulation) | Simulations of quantum observables, measurements and unitary evolution |
-| 🧪 Product | [voxcesta-commerce](https://github.com/AnderssonProgramming/voxcesta-commerce) | Voice-ordering kiosk MVP where shoppers order groceries by speaking Colombian Spanish |
-| 🧪 Product | [state-machine-bridge-test](https://github.com/AnderssonProgramming/state-machine-bridge-test) | Serverless order-processing state machine with 11 states and an expandable rules engine |
-| 🎨 Design | [exoplanet-ml-classifier-design-system](https://github.com/AnderssonProgramming/exoplanet-ml-classifier-design-system) | Zero-dependency design system: tokens, 13 pure HTML/CSS components and a 20-slide deck |
-| 🌐 Portfolio | [AnderssonProgramming.github.io](https://github.com/AnderssonProgramming/AnderssonProgramming.github.io) | My portfolio, built with React 19, TypeScript, Tailwind CSS v4 and Framer Motion |
+**Agents** — [agentic-harness](https://github.com/AnderssonProgramming/agentic-harness) · [UI-Physician](https://github.com/AnderssonProgramming/UI-Physician) · [agentState-Orchestrator](https://github.com/AnderssonProgramming/agentState-Orchestrator) · [agent-constitution](https://github.com/AnderssonProgramming/agent-constitution) · [local-ai-harness](https://github.com/AnderssonProgramming/local-ai-harness)
+
+**Security** — [devsecops-threat-monitor](https://github.com/AnderssonProgramming/devsecops-threat-monitor) · [automated-recon-toolkit](https://github.com/AnderssonProgramming/automated-recon-toolkit) · [secure-application-design](https://github.com/AnderssonProgramming/secure-application-design)
+
+**ML & science** — [exoplanet-ml-classifier](https://github.com/AnderssonProgramming/exoplanet-ml-classifier) · [cnn-architectural-aws-ai](https://github.com/AnderssonProgramming/cnn-architectural-aws-ai) · [quantum-observables-simulation](https://github.com/AnderssonProgramming/quantum-observables-simulation)
+
+**Product & design** — [voxcesta-commerce](https://github.com/AnderssonProgramming/voxcesta-commerce) · [state-machine-bridge-test](https://github.com/AnderssonProgramming/state-machine-bridge-test) · [exoplanet-ml-classifier-design-system](https://github.com/AnderssonProgramming/exoplanet-ml-classifier-design-system) · [AnderssonProgramming.github.io](https://github.com/AnderssonProgramming/AnderssonProgramming.github.io)
 
 </details>
 
@@ -494,11 +348,38 @@ A stock tracking system that uses the **Observer pattern** for real-time notific
 
 ### 📚 Coursework in the open
 
-I keep my university labs public so the next student has a head start:
-[**ARSW**](https://github.com/AnderssonProgramming/ARSW) · Software Architecture —
-[**AREP**](https://github.com/AnderssonProgramming/AREP) · Enterprise Architecture —
-[**SPTI**](https://github.com/AnderssonProgramming/SPTI) · IT Security & Privacy —
-[**MLEA_M**](https://github.com/AnderssonProgramming/MLEA_M) · Machine Learning
+Every course I've taken at ECI has a public repository — labs, projects and notes, so the next student has a head start.
+
+<table>
+<tr>
+<td><b>Foundations</b></td>
+<td>
+<a href="https://github.com/AnderssonProgramming/AYPR"><img src="https://img.shields.io/badge/AYPR-Algorithms_%26_Programming-161B22?style=flat-square&labelColor=FF8C00" alt="AYPR: Algorithms & Programming"/></a>
+<a href="https://github.com/AnderssonProgramming/POOB"><img src="https://img.shields.io/badge/POOB-Object--Oriented_Programming-161B22?style=flat-square&labelColor=FF8C00" alt="POOB: Object-Oriented Programming"/></a>
+<a href="https://github.com/AnderssonProgramming/AYED"><img src="https://img.shields.io/badge/AYED-Algorithms_%26_Data_Structures-161B22?style=flat-square&labelColor=FF8C00" alt="AYED: Algorithms & Data Structures"/></a>
+<a href="https://github.com/AnderssonProgramming/MBDA"><img src="https://img.shields.io/badge/MBDA-Models_%26_Databases-161B22?style=flat-square&labelColor=FF8C00" alt="MBDA: Models & Databases"/></a>
+<a href="https://github.com/AnderssonProgramming/ACSO"><img src="https://img.shields.io/badge/ACSO-Computer_Architecture_%26_OS-161B22?style=flat-square&labelColor=FF8C00" alt="ACSO: Computer Architecture & OS"/></a>
+<a href="https://github.com/AnderssonProgramming/RECO"><img src="https://img.shields.io/badge/RECO-Computer_Networks-161B22?style=flat-square&labelColor=FF8C00" alt="RECO: Computer Networks"/></a>
+<a href="https://github.com/AnderssonProgramming/CNYT"><img src="https://img.shields.io/badge/CNYT-Quantum_Computing-161B22?style=flat-square&labelColor=FF8C00" alt="CNYT: Quantum Computing"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Engineering</b></td>
+<td>
+<a href="https://github.com/AnderssonProgramming/CVDS"><img src="https://img.shields.io/badge/CVDS-Software_Development_Lifecycle-161B22?style=flat-square&labelColor=E6266E" alt="CVDS: Software Development Lifecycle"/></a>
+<a href="https://github.com/AnderssonProgramming/ARSW"><img src="https://img.shields.io/badge/ARSW-Software_Architecture-161B22?style=flat-square&labelColor=E6266E" alt="ARSW: Software Architecture"/></a>
+<a href="https://github.com/AnderssonProgramming/AREP"><img src="https://img.shields.io/badge/AREP-Enterprise_Architecture-161B22?style=flat-square&labelColor=E6266E" alt="AREP: Enterprise Architecture"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Security, data & people</b></td>
+<td>
+<a href="https://github.com/AnderssonProgramming/SPTI"><img src="https://img.shields.io/badge/SPTI-IT_Security_%26_Privacy-161B22?style=flat-square&labelColor=8B3DF0" alt="SPTI: IT Security & Privacy"/></a>
+<a href="https://github.com/AnderssonProgramming/MLEA_M"><img src="https://img.shields.io/badge/MLEA__M-Machine_Learning-161B22?style=flat-square&labelColor=8B3DF0" alt="MLEA_M: Machine Learning"/></a>
+<a href="https://github.com/AnderssonProgramming/PSOC"><img src="https://img.shields.io/badge/PSOC-Social_Psychology-161B22?style=flat-square&labelColor=8B3DF0" alt="PSOC: Social Psychology"/></a>
+</td>
+</tr>
+</table>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -545,39 +426,6 @@ I keep my university labs public so the next student has a head start:
 </picture>
 
 </div>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-## 🎓 Currently Learning & Exploring
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-🤖 **Large Language Models (LLMs)**  
-*Building conversational AI agents for automation*
-
-📱 **Android Development with Kotlin**  
-*Hybrid backend integration for mobile games*
-
-🌐 **WebSockets & Real-Time Systems**  
-*Concurrent and parallel application architecture*
-
-</td>
-<td width="50%" valign="top">
-
-🧠 **Gemini 3 Pro Integration**  
-*Multimodal AI with advanced reasoning capabilities*
-
-🎮 **Unity Game Development**  
-*C# physics engines and interactive experiences*
-
-🔗 **n8n Workflow Automation**  
-*Low-code integrations and event-driven pipelines*
-
-</td>
-</tr>
-</table>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 

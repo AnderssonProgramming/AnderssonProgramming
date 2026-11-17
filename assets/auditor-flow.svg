@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">agentic-security-auditor pipeline</title>
+  <desc id="d">A LangGraph pipeline that runs on every pull request: Scanner (npm audit, Trivy, Semgrep, Gitleaks), Triage Officer (CVSS and context, P0 to P3), Patch Developer (dependency upgrades and LLM refactors), Validator (tsc, npm test, re-scan, rollback) which loops back to the patcher, Quality Gate (CLEAN, REMEDIATED or BLOCKED, fails closed), Deployment Agent (Netlify or Play Store, only on CLEAN) and Reporter (Markdown and JSON).</desc>
+
+  <defs>
+    <clipPath id="card"><rect width="1200" height="340" rx="24"/></clipPath>
+    <radialGradient id="glowL" cx="0" cy="1" r="1">
+      <stop offset="0" stop-color="#FF8C00" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#FF8C00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrowG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#3FB950" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrowP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#FF3D81" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .node rect { fill: #161B22; stroke: #30363D; }
+    .step { font-size: 11px; fill: #6E7681; letter-spacing: 1px; }
+    .name { font-size: 18px; font-weight: 700; fill: #F0F6FC; }
+    .role { font-size: 12.5px; fill: #8B949E; }
+    .tool { font-size: 11.5px; fill: #8B949E; }
+    .flow { stroke-dasharray: 4 6; animation: march 1s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -10; } }
+    .active rect { animation: active 7s linear infinite; }
+    .s1 rect { animation-delay: 0s; } .s2 rect { animation-delay: 1s; } .s3 rect { animation-delay: 2s; }
+    .s4 rect { animation-delay: 3s; } .s5 rect { animation-delay: 4s; } .s6 rect { animation-delay: 5s; } .s7 rect { animation-delay: 6s; }
+    @keyframes active { 0%, 14% { stroke: #FF8C00; } 15%, 100% { stroke: #30363D; } }
+    @media (prefers-reduced-motion: reduce) {
+      .flow, .active rect { animation: none; }
+      .packet { display: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="#0D1117"/>
+    <rect width="1200" height="340" fill="url(#glowL)"/>
+    <rect width="1200" height="340" fill="url(#glowR)"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="338.5" rx="23.25" fill="none" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text x="60" y="52" class="mono" font-size="14" fill="#FF8C00">agentic-security-auditor</text>
+  <text x="60" y="80" class="sans" font-size="20" font-weight="600" fill="#E6EDF3">One pull request, seven agents, and a gate that fails closed.</text>
+  <text x="1140" y="52" text-anchor="end" class="mono" font-size="12.5" fill="#8B949E">LangGraph · Claude · GitHub Actions</text>
+
+  <!-- connectors -->
+  <g fill="none" stroke-width="1.6">
+    <path class="flow" d="M180 170 H218" stroke="#6E7681" marker-end="url(#arrow)"/>
+    <path class="flow" d="M340 170 H378" stroke="#6E7681" marker-end="url(#arrow)"/>
+    <path class="flow" d="M500 170 H538" stroke="#6E7681" marker-end="url(#arrow)"/>
+    <path class="flow" d="M660 170 H698" stroke="#6E7681" marker-end="url(#arrow)"/>
+    <path class="flow" d="M820 170 H858" stroke="#3FB950" marker-end="url(#arrowG)"/>
+    <path class="flow" d="M980 170 H1018" stroke="#6E7681" marker-end="url(#arrow)"/>
+    <!-- retry loop: validator back to patcher -->
+    <path class="flow" d="M600 115 C600 92 440 92 440 113" stroke="#FF3D81" marker-end="url(#arrowP)"/>
+  </g>
+  <text x="520" y="92" text-anchor="middle" class="mono" font-size="11.5" fill="#FF3D81">retry</text>
+  <text x="839" y="156" text-anchor="middle" class="mono" font-size="10" fill="#3FB950">CLEAN</text>
+
+  <!-- packets travel behind the nodes, visible only between them -->
+  <g class="packet">
+    <circle r="4" fill="#FF8C00">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M120 170 H1080"/>
+    </circle>
+    <circle r="4" fill="#FF3D81">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M600 115 C600 92 440 92 440 115"/>
+    </circle>
+  </g>
+
+  <!-- nodes -->
+  <g class="node active s1"><rect x="60"   y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s2"><rect x="220"  y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s3"><rect x="380"  y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s4"><rect x="540"  y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s5"><rect x="700"  y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s6"><rect x="860"  y="115" width="120" height="110" rx="14"/></g>
+  <g class="node active s7"><rect x="1020" y="115" width="120" height="110" rx="14"/></g>
+
+  <g class="mono">
+    <text x="76" y="142" class="step">01</text>
+    <text x="236" y="142" class="step">02</text>
+    <text x="396" y="142" class="step">03</text>
+    <text x="556" y="142" class="step">04</text>
+    <text x="716" y="142" class="step">05</text>
+    <text x="876" y="142" class="step">06</text>
+    <text x="1036" y="142" class="step">07</text>
+  </g>
+  <g class="sans">
+    <text x="76" y="176" class="name">Scan</text>
+    <text x="236" y="176" class="name">Triage</text>
+    <text x="396" y="176" class="name">Fix</text>
+    <text x="556" y="176" class="name">Validate</text>
+    <text x="716" y="176" class="name">Gate</text>
+    <text x="876" y="176" class="name">Deploy</text>
+    <text x="1036" y="176" class="name">Report</text>
+
+    <text x="76" y="204" class="role">Scanner</text>
+    <text x="236" y="204" class="role">Triage Officer</text>
+    <text x="396" y="204" class="role">Patch Developer</text>
+    <text x="556" y="204" class="role">Validator</text>
+    <text x="716" y="204" class="role">Quality Gate</text>
+    <text x="876" y="204" class="role">Deploy Agent</text>
+    <text x="1036" y="204" class="role">Reporter</text>
+  </g>
+
+  <!-- what each agent actually runs -->
+  <g class="mono tool">
+    <text x="62" y="256">npm audit · Trivy</text>
+    <text x="62" y="274">Semgrep · Gitleaks</text>
+    <text x="222" y="256">CVSS + context</text>
+    <text x="222" y="274">P0 → P3</text>
+    <text x="382" y="256">dep upgrades</text>
+    <text x="382" y="274">LLM refactors</text>
+    <text x="542" y="256">tsc · npm test</text>
+    <text x="542" y="274">re-scan · rollback</text>
+    <text x="862" y="256">Netlify</text>
+    <text x="862" y="274">Play Store</text>
+    <text x="1022" y="256">Markdown</text>
+    <text x="1022" y="274">JSON</text>
+  </g>
+  <g class="mono" font-size="11.5" font-weight="700">
+    <text x="702" y="256" fill="#3FB950">CLEAN</text>
+    <text x="702" y="274" fill="#D29922">REMEDIATED</text>
+    <text x="702" y="292" fill="#F85149">BLOCKED</text>
+  </g>
+</svg>

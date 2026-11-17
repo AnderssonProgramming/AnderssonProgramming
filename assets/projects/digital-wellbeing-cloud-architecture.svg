@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240" role="img" aria-labelledby="t d">
+  <title id="t">Digital Wellbeing Cloud</title>
+  <desc id="d">Fights eye strain with Kotlin edge ingestion, Kafka streams and XGBoost inference. Built with Kafka, FastAPI, Terraform, EKS. Main language: Python.</desc>
+  <defs>
+    <clipPath id="c"><rect width="480" height="240" rx="18"/></clipPath>
+    <radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#FF3D81" stop-opacity=".24"/><stop offset="1" stop-color="#FF3D81" stop-opacity="0"/></radialGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF3D81" stop-opacity=".7"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".08"/></linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .glow { animation: glow 6s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .45; } }
+    @media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="480" height="240" fill="#0D1117"/>
+    <rect class="glow" width="480" height="240" fill="url(#g)"/>
+  </g>
+  <rect x=".75" y=".75" width="478.5" height="238.5" rx="17.25" fill="none" stroke="url(#b)" stroke-width="1.5"/>
+  <text x="28" y="44" class="mono" font-size="11.5" fill="#FF3D81" letter-spacing="1.2">EVENT-DRIVEN · ML</text>
+  <path d="M438 34 L450 22 M441 22 H450 V31" fill="none" stroke="#8B949E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="28" y="82" class="sans" font-size="23" font-weight="700" fill="#F0F6FC">Digital Wellbeing Cloud</text>
+  <text x="28" y="113" class="sans" font-size="15" fill="#8B949E">Fights eye strain with Kotlin edge ingestion,</text>
+  <text x="28" y="135" class="sans" font-size="15" fill="#8B949E">Kafka streams and XGBoost inference.</text>
+  <rect x="28" y="166" width="59" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="57.5" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">Kafka</text><rect x="95" y="166" width="74" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="132.0" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">FastAPI</text><rect x="177" y="166" width="89" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="221.5" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">Terraform</text><rect x="274" y="166" width="44" height="26" rx="13" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="296.0" y="183.5" text-anchor="middle" class="mono" font-size="12" fill="#C9D1D9">EKS</text>
+  <circle cx="34" cy="216" r="5" fill="#3572A5"/>
+  <text x="46" y="220.5" class="sans" font-size="13" fill="#8B949E">Python</text>
+</svg>
