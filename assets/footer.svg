@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
   <title id="t">Signature</title>
-  <desc id="d">Open to collaborations. Always learning. Problem solver at heart. Family, sports, music, life and everything. ADSM.</desc>
+  <desc id="d">Open to collaborations. Always learning. Problem solver at heart. Family, sports, music, life and everything. Signed ADSM.</desc>
 
   <defs>
     <clipPath id="card"><rect width="1200" height="300" rx="28"/></clipPath>
@@ -9,72 +9,88 @@
       <stop offset=".5" stop-color="#FF3D81"/>
       <stop offset="1" stop-color="#A855F7"/>
     </linearGradient>
-    <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="480" y1="0" x2="720" y2="0" spreadMethod="reflect">
+    <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="470" y1="0" x2="730" y2="0">
       <stop offset="0" stop-color="#FF8C00"/>
       <stop offset=".5" stop-color="#FF3D81"/>
       <stop offset="1" stop-color="#A855F7"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="480 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="hairR" x1="1" x2="0" y1="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".25"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FF8C00" stop-opacity=".6"/>
       <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".08"/>
       <stop offset="1" stop-color="#A855F7" stop-opacity=".6"/>
     </linearGradient>
+    <radialGradient id="glow" cx=".5" cy="1" r=".5">
+      <stop offset="0" stop-color="#FF3D81" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#FF3D81" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
   </defs>
 
   <style>
     .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
-    .w { animation: flow 14s linear infinite; }
-    .w.b { animation-duration: 20s; animation-direction: reverse; }
-    .w.c { animation-duration: 28s; }
-    @keyframes flow { to { transform: translateX(-1200px); } }
-    .beat { animation: beat 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes beat { 0%, 40%, 100% { transform: scale(1); } 20% { transform: scale(1.22); } }
+    .script { font-family: 'Segoe Script', 'Snell Roundhand', 'Brush Script MT', 'Apple Chancery', cursive; }
     .pill { opacity: 0; animation: up .7s cubic-bezier(.2, .8, .2, 1) forwards; }
     .p1 { animation-delay: .1s; } .p2 { animation-delay: .3s; } .p3 { animation-delay: .5s; } .p4 { animation-delay: .8s; }
     @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    .sign { stroke-dasharray: 900; stroke-dashoffset: 900; fill-opacity: 0;
+            animation: sign 3.2s cubic-bezier(.5, 0, .3, 1) 1.1s forwards; }
+    @keyframes sign { 70% { stroke-dashoffset: 0; fill-opacity: 0; } 100% { stroke-dashoffset: 0; fill-opacity: 1; } }
+    .halo { opacity: 0; animation: halo 4s ease-in-out 3.6s infinite; }
+    @keyframes halo { 50% { opacity: .55; } }
+    .beat { animation: beat 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes beat { 0%, 40%, 100% { transform: scale(1); } 20% { transform: scale(1.2); } }
     @media (prefers-reduced-motion: reduce) {
-      .w, .beat { animation: none; }
       .pill { animation: none; opacity: 1; }
+      .sign { animation: none; stroke-dashoffset: 0; fill-opacity: 1; }
+      .halo, .beat { animation: none; }
     }
   </style>
 
   <g clip-path="url(#card)">
     <rect width="1200" height="300" fill="#0D1117"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
 
     <!-- three promises -->
     <g class="sans" font-size="17" font-weight="600" fill="#E6EDF3">
       <g class="pill p1">
-        <rect x="246" y="48" width="236" height="44" rx="22" fill="#FF8C00" fill-opacity=".1" stroke="#FF8C00" stroke-opacity=".55"/>
-        <circle cx="272" cy="70" r="5" fill="#FF8C00"/>
-        <text x="288" y="76">Open to collaborations</text>
+        <rect x="246" y="44" width="236" height="44" rx="22" fill="#FF8C00" fill-opacity=".1" stroke="#FF8C00" stroke-opacity=".55"/>
+        <circle cx="272" cy="66" r="5" fill="#FF8C00"/>
+        <text x="288" y="72">Open to collaborations</text>
       </g>
       <g class="pill p2">
-        <rect x="498" y="48" width="184" height="44" rx="22" fill="#FF3D81" fill-opacity=".1" stroke="#FF3D81" stroke-opacity=".55"/>
-        <circle cx="524" cy="70" r="5" fill="#FF3D81"/>
-        <text x="540" y="76">Always learning</text>
+        <rect x="498" y="44" width="184" height="44" rx="22" fill="#FF3D81" fill-opacity=".1" stroke="#FF3D81" stroke-opacity=".55"/>
+        <circle cx="524" cy="66" r="5" fill="#FF3D81"/>
+        <text x="540" y="72">Always learning</text>
       </g>
       <g class="pill p3">
-        <rect x="698" y="48" width="256" height="44" rx="22" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-opacity=".55"/>
-        <circle cx="724" cy="70" r="5" fill="#A855F7"/>
-        <text x="740" y="76">Problem solver at heart</text>
+        <rect x="698" y="44" width="256" height="44" rx="22" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-opacity=".55"/>
+        <circle cx="724" cy="66" r="5" fill="#A855F7"/>
+        <text x="740" y="72">Problem solver at heart</text>
       </g>
     </g>
 
-    <!-- signature -->
+    <!-- what matters, framed by hairlines and a heart -->
     <g class="pill p4">
-      <text x="600" y="136" text-anchor="middle" class="sans" font-size="20" fill="#C9D1D9">Family, sports, music, life and everything</text>
-      <path class="beat" d="M600 174 C588 164 578 158 578 149 C578 142 584 138 590 138 C594 138 598 141 600 144 C602 141 606 138 610 138 C616 138 622 142 622 149 C622 158 612 164 600 174 Z" fill="url(#brand)"/>
-      <text x="600" y="218" text-anchor="middle" class="mono" font-size="30" font-weight="700" letter-spacing="10" fill="url(#sig)">ADSM</text>
+      <text x="600" y="140" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#8B949E" letter-spacing="4">FAMILY · SPORTS · MUSIC · LIFE AND EVERYTHING</text>
+      <rect x="380" y="171" width="196" height="1.5" fill="url(#hair)"/>
+      <rect x="624" y="171" width="196" height="1.5" fill="url(#hairR)"/>
+      <path class="beat" d="M600 182 C592 175 585 171 585 164.5 C585 160 589 157 593 157 C596 157 598.5 159 600 161 C601.5 159 604 157 607 157 C611 157 615 160 615 164.5 C615 171 608 175 600 182 Z" fill="url(#brand)"/>
     </g>
 
-    <!-- waves -->
-    <g fill="url(#brand)">
-      <path class="w c" opacity=".18" d="M0 252 Q150 230 300 252 T600 252 T900 252 T1200 252 T1500 252 T1800 252 T2100 252 T2400 252 V300 H0Z"/>
-      <path class="w b" opacity=".35" d="M0 266 Q150 248 300 266 T600 266 T900 266 T1200 266 T1500 266 T1800 266 T2100 266 T2400 266 V300 H0Z"/>
-      <path class="w" opacity=".8" d="M0 280 Q150 266 300 280 T600 280 T900 280 T1200 280 T1500 280 T1800 280 T2100 280 T2400 280 V300 H0Z"/>
-    </g>
+    <!-- hand-signed initials -->
+    <text class="script halo" x="600" y="258" text-anchor="middle" font-size="58" fill="#FF3D81" filter="url(#soft)">ADSM</text>
+    <text class="script sign" x="600" y="258" text-anchor="middle" font-size="58" fill="url(#sig)" stroke="url(#sig)" stroke-width="1.4" stroke-linejoin="round">ADSM</text>
+    <path class="pill p4" d="M520 272 C570 282 650 266 690 274" fill="none" stroke="url(#sig)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
   </g>
   <rect x=".75" y=".75" width="1198.5" height="298.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 </svg>
