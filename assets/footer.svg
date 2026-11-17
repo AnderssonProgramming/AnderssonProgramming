@@ -1,22 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" preserveAspectRatio="none" role="presentation" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Signature</title>
+  <desc id="d">Open to collaborations. Always learning. Problem solver at heart. Family, sports, music, life and everything. ADSM.</desc>
+
   <defs>
-    <linearGradient id="w" x1="0" x2="1" y1="0" y2="0">
+    <clipPath id="card"><rect width="1200" height="300" rx="28"/></clipPath>
+    <linearGradient id="brand" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#FF8C00"/>
       <stop offset=".5" stop-color="#FF3D81"/>
       <stop offset="1" stop-color="#A855F7"/>
     </linearGradient>
-    <clipPath id="c"><rect width="1200" height="140"/></clipPath>
+    <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="480" y1="0" x2="720" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FF8C00"/>
+      <stop offset=".5" stop-color="#FF3D81"/>
+      <stop offset="1" stop-color="#A855F7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="480 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8C00" stop-opacity=".6"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity=".6"/>
+    </linearGradient>
   </defs>
+
   <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
     .w { animation: flow 14s linear infinite; }
     .w.b { animation-duration: 20s; animation-direction: reverse; }
     .w.c { animation-duration: 28s; }
     @keyframes flow { to { transform: translateX(-1200px); } }
-    @media (prefers-reduced-motion: reduce) { .w { animation: none; } }
+    .beat { animation: beat 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes beat { 0%, 40%, 100% { transform: scale(1); } 20% { transform: scale(1.22); } }
+    .pill { opacity: 0; animation: up .7s cubic-bezier(.2, .8, .2, 1) forwards; }
+    .p1 { animation-delay: .1s; } .p2 { animation-delay: .3s; } .p3 { animation-delay: .5s; } .p4 { animation-delay: .8s; }
+    @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .w, .beat { animation: none; }
+      .pill { animation: none; opacity: 1; }
+    }
   </style>
-  <g clip-path="url(#c)" fill="url(#w)">
-    <path class="w c" opacity=".22" d="M0 60 Q150 20 300 60 T600 60 T900 60 T1200 60 T1500 60 T1800 60 T2100 60 T2400 60 V140 H0Z"/>
-    <path class="w b" opacity=".4" d="M0 82 Q150 50 300 82 T600 82 T900 82 T1200 82 T1500 82 T1800 82 T2100 82 T2400 82 V140 H0Z"/>
-    <path class="w" opacity=".85" d="M0 104 Q150 80 300 104 T600 104 T900 104 T1200 104 T1500 104 T1800 104 T2100 104 T2400 104 V140 H0Z"/>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="#0D1117"/>
+
+    <!-- three promises -->
+    <g class="sans" font-size="17" font-weight="600" fill="#E6EDF3">
+      <g class="pill p1">
+        <rect x="246" y="48" width="236" height="44" rx="22" fill="#FF8C00" fill-opacity=".1" stroke="#FF8C00" stroke-opacity=".55"/>
+        <circle cx="272" cy="70" r="5" fill="#FF8C00"/>
+        <text x="288" y="76">Open to collaborations</text>
+      </g>
+      <g class="pill p2">
+        <rect x="498" y="48" width="184" height="44" rx="22" fill="#FF3D81" fill-opacity=".1" stroke="#FF3D81" stroke-opacity=".55"/>
+        <circle cx="524" cy="70" r="5" fill="#FF3D81"/>
+        <text x="540" y="76">Always learning</text>
+      </g>
+      <g class="pill p3">
+        <rect x="698" y="48" width="256" height="44" rx="22" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-opacity=".55"/>
+        <circle cx="724" cy="70" r="5" fill="#A855F7"/>
+        <text x="740" y="76">Problem solver at heart</text>
+      </g>
+    </g>
+
+    <!-- signature -->
+    <g class="pill p4">
+      <text x="600" y="136" text-anchor="middle" class="sans" font-size="20" fill="#C9D1D9">Family, sports, music, life and everything</text>
+      <path class="beat" d="M600 174 C588 164 578 158 578 149 C578 142 584 138 590 138 C594 138 598 141 600 144 C602 141 606 138 610 138 C616 138 622 142 622 149 C622 158 612 164 600 174 Z" fill="url(#brand)"/>
+      <text x="600" y="218" text-anchor="middle" class="mono" font-size="30" font-weight="700" letter-spacing="10" fill="url(#sig)">ADSM</text>
+    </g>
+
+    <!-- waves -->
+    <g fill="url(#brand)">
+      <path class="w c" opacity=".18" d="M0 252 Q150 230 300 252 T600 252 T900 252 T1200 252 T1500 252 T1800 252 T2100 252 T2400 252 V300 H0Z"/>
+      <path class="w b" opacity=".35" d="M0 266 Q150 248 300 266 T600 266 T900 266 T1200 266 T1500 266 T1800 266 T2100 266 T2400 266 V300 H0Z"/>
+      <path class="w" opacity=".8" d="M0 280 Q150 266 300 280 T600 280 T900 280 T1200 280 T1500 280 T1800 280 T2100 280 T2400 280 V300 H0Z"/>
+    </g>
   </g>
+  <rect x=".75" y=".75" width="1198.5" height="298.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 </svg>
