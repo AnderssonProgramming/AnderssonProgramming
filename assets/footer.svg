@@ -5,14 +5,14 @@
   <defs>
     <clipPath id="card"><rect width="1200" height="300" rx="28"/></clipPath>
     <linearGradient id="brand" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#FF8C00"/>
-      <stop offset=".5" stop-color="#FF3D81"/>
-      <stop offset="1" stop-color="#A855F7"/>
+      <stop offset="0" stop-color="#2FCD50"/>
+      <stop offset=".5" stop-color="#14C8A0"/>
+      <stop offset="1" stop-color="#9BE34A"/>
     </linearGradient>
     <linearGradient id="sig" gradientUnits="userSpaceOnUse" x1="470" y1="0" x2="730" y2="0">
-      <stop offset="0" stop-color="#FF8C00"/>
-      <stop offset=".5" stop-color="#FF3D81"/>
-      <stop offset="1" stop-color="#A855F7"/>
+      <stop offset="0" stop-color="#2FCD50"/>
+      <stop offset=".5" stop-color="#14C8A0"/>
+      <stop offset="1" stop-color="#9BE34A"/>
     </linearGradient>
     <linearGradient id="hair" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
@@ -23,13 +23,13 @@
       <stop offset="1" stop-color="#FFFFFF" stop-opacity=".25"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FF8C00" stop-opacity=".6"/>
+      <stop offset="0" stop-color="#2FCD50" stop-opacity=".6"/>
       <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#9BE34A" stop-opacity=".6"/>
     </linearGradient>
     <radialGradient id="glow" cx=".5" cy="1" r=".5">
-      <stop offset="0" stop-color="#FF3D81" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#FF3D81" stop-opacity="0"/>
+      <stop offset="0" stop-color="#14C8A0" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#14C8A0" stop-opacity="0"/>
     </radialGradient>
     <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="6"/>
@@ -57,24 +57,24 @@
   </style>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="300" fill="#0D1117"/>
+    <rect width="1200" height="300" fill="#060B08"/>
     <rect width="1200" height="300" fill="url(#glow)"/>
 
     <!-- three promises -->
     <g class="sans" font-size="17" font-weight="600" fill="#E6EDF3">
       <g class="pill p1">
-        <rect x="246" y="44" width="236" height="44" rx="22" fill="#FF8C00" fill-opacity=".1" stroke="#FF8C00" stroke-opacity=".55"/>
-        <circle cx="272" cy="66" r="5" fill="#FF8C00"/>
+        <rect x="246" y="44" width="236" height="44" rx="22" fill="#2FCD50" fill-opacity=".1" stroke="#2FCD50" stroke-opacity=".55"/>
+        <circle cx="272" cy="66" r="5" fill="#2FCD50"/>
         <text x="288" y="72">Open to collaborations</text>
       </g>
       <g class="pill p2">
-        <rect x="498" y="44" width="184" height="44" rx="22" fill="#FF3D81" fill-opacity=".1" stroke="#FF3D81" stroke-opacity=".55"/>
-        <circle cx="524" cy="66" r="5" fill="#FF3D81"/>
+        <rect x="498" y="44" width="184" height="44" rx="22" fill="#14C8A0" fill-opacity=".1" stroke="#14C8A0" stroke-opacity=".55"/>
+        <circle cx="524" cy="66" r="5" fill="#14C8A0"/>
         <text x="540" y="72">Always learning</text>
       </g>
       <g class="pill p3">
-        <rect x="698" y="44" width="256" height="44" rx="22" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-opacity=".55"/>
-        <circle cx="724" cy="66" r="5" fill="#A855F7"/>
+        <rect x="698" y="44" width="256" height="44" rx="22" fill="#9BE34A" fill-opacity=".1" stroke="#9BE34A" stroke-opacity=".55"/>
+        <circle cx="724" cy="66" r="5" fill="#9BE34A"/>
         <text x="740" y="72">Problem solver at heart</text>
       </g>
     </g>
@@ -88,7 +88,7 @@
     </g>
 
     <!-- hand-signed initials -->
-    <text class="script halo" x="600" y="258" text-anchor="middle" font-size="58" fill="#FF3D81" filter="url(#soft)">ADSM</text>
+    <text class="script halo" x="600" y="258" text-anchor="middle" font-size="58" fill="#14C8A0" filter="url(#soft)">ADSM</text>
     <text class="script sign" x="600" y="258" text-anchor="middle" font-size="58" fill="url(#sig)" stroke="url(#sig)" stroke-width="1.4" stroke-linejoin="round">ADSM</text>
     <path class="pill p4" d="M520 272 C570 282 650 266 690 274" fill="none" stroke="url(#sig)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
   </g>

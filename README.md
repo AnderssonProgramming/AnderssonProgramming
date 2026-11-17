@@ -10,18 +10,18 @@
 <br/><br/>
 
 <!-- Primary actions -->
-<a href="https://anderssonprogramming.github.io"><img src="https://img.shields.io/badge/Portfolio-FF8C00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://anderssonprogramming.github.io"><img src="https://img.shields.io/badge/Portfolio-2FCD50?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/anderssonsm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://leetcode.com/u/ander14_73/"><img src="https://img.shields.io/badge/LeetCode-1F222E?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
-<a href="https://www.hackerrank.com/profile/ander14_73"><img src="https://img.shields.io/badge/HackerRank-1F222E?style=for-the-badge&logo=hackerrank&logoColor=00EA64" alt="HackerRank"/></a>
-<a href="https://www.researchgate.net/profile/Andersson-Sanchez-Mendez"><img src="https://img.shields.io/badge/ResearchGate-1F222E?style=for-the-badge&logo=researchgate&logoColor=00CCBB" alt="ResearchGate"/></a>
+<a href="https://leetcode.com/u/ander14_73/"><img src="https://img.shields.io/badge/LeetCode-0B1510?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
+<a href="https://www.hackerrank.com/profile/ander14_73"><img src="https://img.shields.io/badge/HackerRank-0B1510?style=for-the-badge&logo=hackerrank&logoColor=00EA64" alt="HackerRank"/></a>
+<a href="https://www.researchgate.net/profile/Andersson-Sanchez-Mendez"><img src="https://img.shields.io/badge/ResearchGate-0B1510?style=for-the-badge&logo=researchgate&logoColor=00CCBB" alt="ResearchGate"/></a>
 
 <br/>
 
 <!-- Social proof -->
-<a href="https://github.com/AnderssonProgramming?tab=followers"><img src="https://img.shields.io/github/followers/AnderssonProgramming?style=flat-square&logo=github&logoColor=white&label=followers&color=A855F7&labelColor=1F222E" alt="Followers"/></a>
-<a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/AnderssonProgramming?style=flat-square&logo=github&logoColor=white&label=stars&color=FF8C00&labelColor=1F222E" alt="Stars"/></a>
-<a href="https://github.com/AnderssonProgramming"><img src="https://komarev.com/ghpvc/?username=AnderssonProgramming&style=flat-square&color=FF3D81&label=profile+views" alt="Profile views"/></a>
+<a href="https://github.com/AnderssonProgramming?tab=followers"><img src="https://img.shields.io/github/followers/AnderssonProgramming?style=flat-square&logo=github&logoColor=white&label=followers&color=9BE34A&labelColor=0B1510" alt="Followers"/></a>
+<a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/AnderssonProgramming?style=flat-square&logo=github&logoColor=white&label=stars&color=2FCD50&labelColor=0B1510" alt="Stars"/></a>
+<a href="https://github.com/AnderssonProgramming"><img src="https://komarev.com/ghpvc/?username=AnderssonProgramming&style=flat-square&color=14C8A0&label=profile+views" alt="Profile views"/></a>
 
 <br/><br/>
 
@@ -262,7 +262,7 @@ The tools I reach for first, by layer. The complete inventory is one click below
 <div align="center">
 <br>
 <a href="https://github.com/AnderssonProgramming?tab=repositories&sort=stargazers">
-<img src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Projects-FF8C00?style=for-the-badge&logoColor=white&logo=repo" alt="View all projects"/>
+<img src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Projects-2FCD50?style=for-the-badge&logoColor=white&logo=repo" alt="View all projects"/>
 </a>
 </div>
 
@@ -322,29 +322,29 @@ Labs, projects and notes from every course I've taken at ECI, public so the next
 <tr>
 <td><b>Foundations</b></td>
 <td>
-<a href="https://github.com/AnderssonProgramming/AYPR"><img src="https://img.shields.io/badge/AYPR-Algorithms_%26_Programming-161B22?style=flat-square&labelColor=FF8C00" alt="AYPR: Algorithms & Programming"/></a>
-<a href="https://github.com/AnderssonProgramming/POOB"><img src="https://img.shields.io/badge/POOB-Object--Oriented_Programming-161B22?style=flat-square&labelColor=FF8C00" alt="POOB: Object-Oriented Programming"/></a>
-<a href="https://github.com/AnderssonProgramming/AYED"><img src="https://img.shields.io/badge/AYED-Algorithms_%26_Data_Structures-161B22?style=flat-square&labelColor=FF8C00" alt="AYED: Algorithms & Data Structures"/></a>
-<a href="https://github.com/AnderssonProgramming/MBDA"><img src="https://img.shields.io/badge/MBDA-Models_%26_Databases-161B22?style=flat-square&labelColor=FF8C00" alt="MBDA: Models & Databases"/></a>
-<a href="https://github.com/AnderssonProgramming/ACSO"><img src="https://img.shields.io/badge/ACSO-Computer_Architecture_%26_OS-161B22?style=flat-square&labelColor=FF8C00" alt="ACSO: Computer Architecture & OS"/></a>
-<a href="https://github.com/AnderssonProgramming/RECO"><img src="https://img.shields.io/badge/RECO-Computer_Networks-161B22?style=flat-square&labelColor=FF8C00" alt="RECO: Computer Networks"/></a>
-<a href="https://github.com/AnderssonProgramming/CNYT"><img src="https://img.shields.io/badge/CNYT-Quantum_Computing-161B22?style=flat-square&labelColor=FF8C00" alt="CNYT: Quantum Computing"/></a>
+<a href="https://github.com/AnderssonProgramming/AYPR"><img src="https://img.shields.io/badge/AYPR-Algorithms_%26_Programming-0B1510?style=flat-square&labelColor=2FCD50" alt="AYPR: Algorithms & Programming"/></a>
+<a href="https://github.com/AnderssonProgramming/POOB"><img src="https://img.shields.io/badge/POOB-Object--Oriented_Programming-0B1510?style=flat-square&labelColor=2FCD50" alt="POOB: Object-Oriented Programming"/></a>
+<a href="https://github.com/AnderssonProgramming/AYED"><img src="https://img.shields.io/badge/AYED-Algorithms_%26_Data_Structures-0B1510?style=flat-square&labelColor=2FCD50" alt="AYED: Algorithms & Data Structures"/></a>
+<a href="https://github.com/AnderssonProgramming/MBDA"><img src="https://img.shields.io/badge/MBDA-Models_%26_Databases-0B1510?style=flat-square&labelColor=2FCD50" alt="MBDA: Models & Databases"/></a>
+<a href="https://github.com/AnderssonProgramming/ACSO"><img src="https://img.shields.io/badge/ACSO-Computer_Architecture_%26_OS-0B1510?style=flat-square&labelColor=2FCD50" alt="ACSO: Computer Architecture & OS"/></a>
+<a href="https://github.com/AnderssonProgramming/RECO"><img src="https://img.shields.io/badge/RECO-Computer_Networks-0B1510?style=flat-square&labelColor=2FCD50" alt="RECO: Computer Networks"/></a>
+<a href="https://github.com/AnderssonProgramming/CNYT"><img src="https://img.shields.io/badge/CNYT-Quantum_Computing-0B1510?style=flat-square&labelColor=2FCD50" alt="CNYT: Quantum Computing"/></a>
 </td>
 </tr>
 <tr>
 <td><b>Engineering</b></td>
 <td>
-<a href="https://github.com/AnderssonProgramming/CVDS"><img src="https://img.shields.io/badge/CVDS-Software_Development_Lifecycle-161B22?style=flat-square&labelColor=E6266E" alt="CVDS: Software Development Lifecycle"/></a>
-<a href="https://github.com/AnderssonProgramming/ARSW"><img src="https://img.shields.io/badge/ARSW-Software_Architecture-161B22?style=flat-square&labelColor=E6266E" alt="ARSW: Software Architecture"/></a>
-<a href="https://github.com/AnderssonProgramming/AREP"><img src="https://img.shields.io/badge/AREP-Enterprise_Architecture-161B22?style=flat-square&labelColor=E6266E" alt="AREP: Enterprise Architecture"/></a>
+<a href="https://github.com/AnderssonProgramming/CVDS"><img src="https://img.shields.io/badge/CVDS-Software_Development_Lifecycle-0B1510?style=flat-square&labelColor=0E9F7E" alt="CVDS: Software Development Lifecycle"/></a>
+<a href="https://github.com/AnderssonProgramming/ARSW"><img src="https://img.shields.io/badge/ARSW-Software_Architecture-0B1510?style=flat-square&labelColor=0E9F7E" alt="ARSW: Software Architecture"/></a>
+<a href="https://github.com/AnderssonProgramming/AREP"><img src="https://img.shields.io/badge/AREP-Enterprise_Architecture-0B1510?style=flat-square&labelColor=0E9F7E" alt="AREP: Enterprise Architecture"/></a>
 </td>
 </tr>
 <tr>
 <td><b>Security, data & people</b></td>
 <td>
-<a href="https://github.com/AnderssonProgramming/SPTI"><img src="https://img.shields.io/badge/SPTI-IT_Security_%26_Privacy-161B22?style=flat-square&labelColor=8B3DF0" alt="SPTI: IT Security & Privacy"/></a>
-<a href="https://github.com/AnderssonProgramming/MLEA_M"><img src="https://img.shields.io/badge/MLEA__M-Machine_Learning-161B22?style=flat-square&labelColor=8B3DF0" alt="MLEA_M: Machine Learning"/></a>
-<a href="https://github.com/AnderssonProgramming/PSOC"><img src="https://img.shields.io/badge/PSOC-Social_Psychology-161B22?style=flat-square&labelColor=8B3DF0" alt="PSOC: Social Psychology"/></a>
+<a href="https://github.com/AnderssonProgramming/SPTI"><img src="https://img.shields.io/badge/SPTI-IT_Security_%26_Privacy-0B1510?style=flat-square&labelColor=3D8B1F" alt="SPTI: IT Security & Privacy"/></a>
+<a href="https://github.com/AnderssonProgramming/MLEA_M"><img src="https://img.shields.io/badge/MLEA__M-Machine_Learning-0B1510?style=flat-square&labelColor=3D8B1F" alt="MLEA_M: Machine Learning"/></a>
+<a href="https://github.com/AnderssonProgramming/PSOC"><img src="https://img.shields.io/badge/PSOC-Social_Psychology-0B1510?style=flat-square&labelColor=3D8B1F" alt="PSOC: Social Psychology"/></a>
 </td>
 </tr>
 </table>
@@ -356,34 +356,34 @@ Labs, projects and notes from every course I've taken at ECI, public so the next
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=A855F7&text_color=C9D1D9&ring_color=FF3D81"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=D96F00&icon_color=8B3DF0&text_color=24292F&ring_color=E6266E"/>
-  <img height="180" src="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=A855F7&text_color=C9D1D9&ring_color=FF3D81" alt="GitHub stats"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=060B08&title_color=2FCD50&icon_color=9BE34A&text_color=C9D1D9&ring_color=14C8A0"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=1A7F37&icon_color=3D8B1F&text_color=24292F&ring_color=0E9F7E"/>
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=AnderssonProgramming&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=060B08&title_color=2FCD50&icon_color=9BE34A&text_color=C9D1D9&ring_color=14C8A0" alt="GitHub stats"/>
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&hide=Jupyter%20Notebook"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=FFFFFF&title_color=D96F00&text_color=24292F&hide=Jupyter%20Notebook"/>
-  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&hide=Jupyter%20Notebook" alt="Most used languages"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=060B08&title_color=2FCD50&text_color=C9D1D9&hide=Jupyter%20Notebook"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=FFFFFF&title_color=1A7F37&text_color=24292F&hide=Jupyter%20Notebook"/>
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=AnderssonProgramming&layout=compact&langs_count=10&hide_border=true&bg_color=060B08&title_color=2FCD50&text_color=C9D1D9&hide=Jupyter%20Notebook" alt="Most used languages"/>
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=0D1117&ring=FF8C00&fire=FF3D81&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF8C00&sideLabels=C9D1D9&dates=8B949E&stroke=30363D"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=FFFFFF&ring=D96F00&fire=E6266E&currStreakNum=24292F&sideNums=24292F&currStreakLabel=D96F00&sideLabels=57606A&dates=6E7781&stroke=D0D7DE"/>
-  <img src="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=0D1117&ring=FF8C00&fire=FF3D81&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF8C00&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=060B08&ring=2FCD50&fire=14C8A0&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=2FCD50&sideLabels=C9D1D9&dates=8B949E&stroke=30363D"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=FFFFFF&ring=1A7F37&fire=0E9F7E&currStreakNum=24292F&sideNums=24292F&currStreakLabel=1A7F37&sideLabels=57606A&dates=6E7781&stroke=D0D7DE"/>
+  <img src="https://streak-stats.demolab.com/?user=AnderssonProgramming&hide_border=true&background=060B08&ring=2FCD50&fire=14C8A0&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=2FCD50&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak"/>
 </picture>
 
 <br/><br/>
 
 <!-- Generated twice a day by .github/workflows/profile-assets.yml into the `output` branch -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-night-rainbow.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-season-animate.svg"/>
-  <img width="100%" src="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-night-rainbow.svg" alt="3D contribution calendar"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-night-green.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-green-animate.svg"/>
+  <img width="100%" src="https://raw.githubusercontent.com/AnderssonProgramming/AnderssonProgramming/output/profile-night-green.svg" alt="3D contribution calendar"/>
 </picture>
 
-<img src="https://trophy.ryglcloud.net/?username=AnderssonProgramming&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/>
+<img src="https://trophy.ryglcloud.net/?username=AnderssonProgramming&theme=matrix&no-frame=true&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies"/>
 
 <br/><br/>
 

@@ -6,16 +6,16 @@
     <clipPath id="card"><rect width="1200" height="440" rx="28"/></clipPath>
 
     <linearGradient id="brand" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="560" y2="0" spreadMethod="reflect">
-      <stop offset="0" stop-color="#FF8C00"/>
-      <stop offset=".5" stop-color="#FF3D81"/>
-      <stop offset="1" stop-color="#A855F7"/>
+      <stop offset="0" stop-color="#2FCD50"/>
+      <stop offset=".5" stop-color="#14C8A0"/>
+      <stop offset="1" stop-color="#9BE34A"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="992 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FF8C00" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#2FCD50" stop-opacity=".7"/>
       <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".08"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#9BE34A" stop-opacity=".7"/>
     </linearGradient>
 
     <radialGradient id="fade" cx=".5" cy=".5" r=".75">
@@ -86,15 +86,15 @@
   </style>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="440" fill="#0D1117"/>
+    <rect width="1200" height="440" fill="#060B08"/>
 
     <!-- ambient light -->
     <g filter="url(#blur)" opacity=".55">
-      <circle class="orb" cx="170" cy="60" r="150" fill="#FF8C00"/>
-      <circle class="orb b" cx="1040" cy="400" r="170" fill="#A100FF"/>
-      <circle class="orb c" cx="640" cy="470" r="120" fill="#FF3D81"/>
+      <circle class="orb" cx="170" cy="60" r="150" fill="#2FCD50"/>
+      <circle class="orb b" cx="1040" cy="400" r="170" fill="#0E7A2E"/>
+      <circle class="orb c" cx="640" cy="470" r="120" fill="#14C8A0"/>
     </g>
-    <rect width="1200" height="440" fill="#0D1117" opacity=".45"/>
+    <rect width="1200" height="440" fill="#060B08" opacity=".45"/>
     <rect width="1200" height="440" fill="url(#dots)" opacity=".13" mask="url(#gridMask)"/>
 
     <!-- status pill -->
@@ -111,7 +111,7 @@
 
     <!-- rotating role -->
     <g class="rise d4">
-      <text x="64" y="298" class="mono" font-size="22" fill="#FF8C00">&gt;</text>
+      <text x="64" y="298" class="mono" font-size="22" fill="#2FCD50">&gt;</text>
       <g class="mono" font-size="22" fill="#E6EDF3">
         <text x="90" y="298" class="role r1">Full-Stack Developer</text>
         <text x="90" y="298" class="role r2">QA · Software Engineering @ Accenture</text>
@@ -123,22 +123,22 @@
 
     <!-- core values -->
     <g class="sans rise d5" font-size="15.5" font-weight="600" fill="#E6EDF3">
-      <rect x="64" y="338" width="122" height="36" rx="18" fill="#FF8C00" fill-opacity=".12" stroke="#FF8C00" stroke-opacity=".55"/>
-      <circle cx="84" cy="356" r="4" fill="#FF8C00"/>
+      <rect x="64" y="338" width="122" height="36" rx="18" fill="#2FCD50" fill-opacity=".12" stroke="#2FCD50" stroke-opacity=".55"/>
+      <circle cx="84" cy="356" r="4" fill="#2FCD50"/>
       <text x="97" y="361">Discipline</text>
 
-      <rect x="198" y="338" width="128" height="36" rx="18" fill="#FF3D81" fill-opacity=".12" stroke="#FF3D81" stroke-opacity=".55"/>
-      <circle cx="218" cy="356" r="4" fill="#FF3D81"/>
+      <rect x="198" y="338" width="128" height="36" rx="18" fill="#14C8A0" fill-opacity=".12" stroke="#14C8A0" stroke-opacity=".55"/>
+      <circle cx="218" cy="356" r="4" fill="#14C8A0"/>
       <text x="231" y="361">Dedication</text>
 
-      <rect x="338" y="338" width="124" height="36" rx="18" fill="#A855F7" fill-opacity=".12" stroke="#A855F7" stroke-opacity=".55"/>
-      <circle cx="358" cy="356" r="4" fill="#A855F7"/>
+      <rect x="338" y="338" width="124" height="36" rx="18" fill="#9BE34A" fill-opacity=".12" stroke="#9BE34A" stroke-opacity=".55"/>
+      <circle cx="358" cy="356" r="4" fill="#9BE34A"/>
       <text x="371" y="361">Teamwork</text>
     </g>
 
     <!-- terminal -->
     <g class="rise d4">
-      <rect x="700" y="64" width="436" height="312" rx="14" fill="#010409" fill-opacity=".82" stroke="#FFFFFF" stroke-opacity=".12"/>
+      <rect x="700" y="64" width="436" height="312" rx="14" fill="#020604" fill-opacity=".82" stroke="#FFFFFF" stroke-opacity=".12"/>
       <path d="M700 104h436" stroke="#FFFFFF" stroke-opacity=".08"/>
       <circle cx="724" cy="84" r="6" fill="#FF5F57"/>
       <circle cx="744" cy="84" r="6" fill="#FEBC2E"/>
@@ -146,16 +146,16 @@
       <text x="918" y="89" text-anchor="middle" class="mono" font-size="13.5" fill="#8B949E">ander@bogota: ~</text>
 
       <g class="mono" font-size="16">
-        <text x="722" y="138" class="ln l1"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> whoami</tspan></text>
+        <text x="722" y="138" class="ln l1"><tspan fill="#2FCD50">$</tspan><tspan fill="#E6EDF3"> whoami</tspan></text>
         <text x="722" y="162" class="ln l2" fill="#8B949E">full-stack dev · QA @ Accenture</text>
-        <text x="722" y="194" class="ln l3"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> cat focus.txt</tspan></text>
+        <text x="722" y="194" class="ln l3"><tspan fill="#2FCD50">$</tspan><tspan fill="#E6EDF3"> cat focus.txt</tspan></text>
         <text x="722" y="218" class="ln l4" fill="#8B949E">agentic AI · cloud · DevSecOps</text>
-        <text x="722" y="250" class="ln l5"><tspan fill="#FF8C00">$</tspan><tspan fill="#E6EDF3"> git log --oneline -3</tspan></text>
-        <text x="722" y="274" class="ln l6"><tspan fill="#D2A8FF">a1f9c2e</tspan><tspan fill="#8B949E"> feat: ship with discipline</tspan></text>
-        <text x="722" y="298" class="ln l7"><tspan fill="#D2A8FF">7be04d1</tspan><tspan fill="#8B949E"> test: break it before prod does</tspan></text>
-        <text x="722" y="322" class="ln l8"><tspan fill="#D2A8FF">c3d5e88</tspan><tspan fill="#8B949E"> docs: teach what you learn</tspan></text>
+        <text x="722" y="250" class="ln l5"><tspan fill="#2FCD50">$</tspan><tspan fill="#E6EDF3"> git log --oneline -3</tspan></text>
+        <text x="722" y="274" class="ln l6"><tspan fill="#7CF29A">a1f9c2e</tspan><tspan fill="#8B949E"> feat: ship with discipline</tspan></text>
+        <text x="722" y="298" class="ln l7"><tspan fill="#7CF29A">7be04d1</tspan><tspan fill="#8B949E"> test: break it before prod does</tspan></text>
+        <text x="722" y="322" class="ln l8"><tspan fill="#7CF29A">c3d5e88</tspan><tspan fill="#8B949E"> docs: teach what you learn</tspan></text>
         <g class="ln l9">
-          <text x="722" y="354" fill="#FF8C00">$</text>
+          <text x="722" y="354" fill="#2FCD50">$</text>
           <rect class="caret" x="742" y="340" width="10" height="18" fill="#E6EDF3"/>
         </g>
       </g>
