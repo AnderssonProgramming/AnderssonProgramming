@@ -4,7 +4,7 @@
 
 <!-- Hero: hand-built animated SVG, lives in this repo (no third-party service) -->
 <a href="https://anderssonprogramming.github.io">
-  <img src="./assets/hero.svg" width="100%" alt="Andersson David Sánchez Méndez — Full-Stack Developer · QA and Software Engineering at Accenture · Systems Engineering Student at ECI · Teaching and Research Assistant · Bogotá, Colombia"/>
+  <img src="./assets/hero.svg" width="100%" alt="Andersson David Sánchez Méndez, Full-Stack Developer · QA and Software Engineering at Accenture · Systems Engineering Student at ECI · Teaching and Research Assistant · Bogotá, Colombia"/>
 </a>
 
 <br/><br/>
@@ -26,12 +26,10 @@
 <br/><br/>
 
 <a href="#-about-me">About</a> ·
-<a href="#-under-the-hood">Under the hood</a> ·
 <a href="#-tech-stack-universe">Stack</a> ·
 <a href="#-featured-projects">Projects</a> ·
 <a href="#-coursework-in-the-open">Coursework</a> ·
-<a href="#-github-analytics">Analytics</a> ·
-<a href="#-lets-connect--collaborate">Connect</a>
+<a href="#-github-analytics">Analytics</a>
 
 </div>
 
@@ -43,36 +41,6 @@
   <a href="https://www.linkedin.com/in/anderssonsm/"><img src="./assets/about-profile.svg" width="49%" alt="Professional Profile: Custom Software Engineering Associate, QA Support as Accenture intern. Systems Engineering Student at Escuela Colombiana de Ingeniería Julio Garavito. Teaching and Research Assistant in Database Modeling and Object-Oriented Programming. Collaborative Development and Innovation."/></a>
   <img src="./assets/about-values.svg" width="49%" alt="Core Values: Discipline, Dedication and Teamwork. Traits: Leadership, Passion and Communication. Off the keyboard: gym, basketball, long-distance running, motorcycle riding and dancing."/>
 </p>
-
-<details>
-<summary><code>$ node -e "console.log(andersson)"</code> &nbsp;<sub>click to run</sub></summary>
-
-```typescript
-const andersson = {
-  role: "Custom Software Engineering Associate · QA Support @ Accenture",
-  studies: "Systems Engineering @ Escuela Colombiana de Ingeniería Julio Garavito",
-  teaching: ["Database Modeling", "Object-Oriented Programming"],
-  values: ["Discipline", "Dedication", "Teamwork"],
-  traits: ["Leadership", "Passion", "Communication"],
-  lifestyle: {
-    fitness: "Gym enthusiast",
-    sports: "Basketball player",
-    endurance: "Long-distance runner",
-    freedom: "Motorcycle rider",
-    party: "Dancer lover"
-  }
-};
-```
-
-</details>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-## 🔬 Under the Hood
-
-A look inside one system I built — the agents, the loop and the gate, as they run on every pull request.
-
-<a href="https://github.com/AnderssonProgramming/agentic-security-auditor"><img src="./assets/auditor-flow.svg" width="100%" alt="agentic-security-auditor pipeline: Scan, Triage, Fix and Validate in a retry loop, a Quality Gate with CLEAN, REMEDIATED or BLOCKED verdicts, Deploy only on CLEAN, then Report."/></a>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -281,13 +249,13 @@ The tools I reach for first, by layer. The complete inventory is one click below
 <summary><b>More to explore</b></summary>
 <br>
 
-**Agents** — [agentic-harness](https://github.com/AnderssonProgramming/agentic-harness) · [UI-Physician](https://github.com/AnderssonProgramming/UI-Physician) · [agentState-Orchestrator](https://github.com/AnderssonProgramming/agentState-Orchestrator) · [agent-constitution](https://github.com/AnderssonProgramming/agent-constitution) · [local-ai-harness](https://github.com/AnderssonProgramming/local-ai-harness)
+**Agents:** [agentic-harness](https://github.com/AnderssonProgramming/agentic-harness) · [UI-Physician](https://github.com/AnderssonProgramming/UI-Physician) · [agentState-Orchestrator](https://github.com/AnderssonProgramming/agentState-Orchestrator) · [agent-constitution](https://github.com/AnderssonProgramming/agent-constitution) · [local-ai-harness](https://github.com/AnderssonProgramming/local-ai-harness)
 
-**Security** — [devsecops-threat-monitor](https://github.com/AnderssonProgramming/devsecops-threat-monitor) · [automated-recon-toolkit](https://github.com/AnderssonProgramming/automated-recon-toolkit) · [secure-application-design](https://github.com/AnderssonProgramming/secure-application-design)
+**Security:** [devsecops-threat-monitor](https://github.com/AnderssonProgramming/devsecops-threat-monitor) · [automated-recon-toolkit](https://github.com/AnderssonProgramming/automated-recon-toolkit) · [secure-application-design](https://github.com/AnderssonProgramming/secure-application-design)
 
-**ML & science** — [exoplanet-ml-classifier](https://github.com/AnderssonProgramming/exoplanet-ml-classifier) · [cnn-architectural-aws-ai](https://github.com/AnderssonProgramming/cnn-architectural-aws-ai) · [quantum-observables-simulation](https://github.com/AnderssonProgramming/quantum-observables-simulation)
+**ML & science:** [exoplanet-ml-classifier](https://github.com/AnderssonProgramming/exoplanet-ml-classifier) · [cnn-architectural-aws-ai](https://github.com/AnderssonProgramming/cnn-architectural-aws-ai) · [quantum-observables-simulation](https://github.com/AnderssonProgramming/quantum-observables-simulation)
 
-**Product & design** — [voxcesta-commerce](https://github.com/AnderssonProgramming/voxcesta-commerce) · [state-machine-bridge-test](https://github.com/AnderssonProgramming/state-machine-bridge-test) · [exoplanet-ml-classifier-design-system](https://github.com/AnderssonProgramming/exoplanet-ml-classifier-design-system) · [AnderssonProgramming.github.io](https://github.com/AnderssonProgramming/AnderssonProgramming.github.io)
+**Product & design:** [voxcesta-commerce](https://github.com/AnderssonProgramming/voxcesta-commerce) · [state-machine-bridge-test](https://github.com/AnderssonProgramming/state-machine-bridge-test) · [exoplanet-ml-classifier-design-system](https://github.com/AnderssonProgramming/exoplanet-ml-classifier-design-system) · [AnderssonProgramming.github.io](https://github.com/AnderssonProgramming/AnderssonProgramming.github.io)
 
 </details>
 
@@ -348,7 +316,7 @@ The tools I reach for first, by layer. The complete inventory is one click below
 
 ### 📚 Coursework in the open
 
-Every course I've taken at ECI has a public repository — labs, projects and notes, so the next student has a head start.
+Labs, projects and notes from every course I've taken at ECI, public so the next student has a head start.
 
 <table>
 <tr>
@@ -431,27 +399,8 @@ Every course I've taken at ECI has a public repository — labs, projects and no
 
 <div align="center">
 
-## 🎯 Let's Connect & Collaborate!
+<a href="#top"><img src="./assets/footer.svg" width="100%" alt="Open to collaborations. Always learning. Problem solver at heart. Family, sports, music, life and everything. ADSM"/></a>
 
-Have an idea, a role, or a bug that refuses to die? My inbox is open.
-
-<a href="https://www.linkedin.com/in/anderssonsm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://anderssonprogramming.github.io"><img src="https://img.shields.io/badge/Portfolio-FF8C00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="https://github.com/AnderssonProgramming"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://leetcode.com/u/ander14_73/"><img src="https://img.shields.io/badge/LeetCode-1F222E?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
-<a href="https://www.hackerrank.com/profile/ander14_73"><img src="https://img.shields.io/badge/HackerRank-1F222E?style=for-the-badge&logo=hackerrank&logoColor=00EA64" alt="HackerRank"/></a>
-<a href="https://www.researchgate.net/profile/Andersson-Sanchez-Mendez"><img src="https://img.shields.io/badge/ResearchGate-1F222E?style=for-the-badge&logo=researchgate&logoColor=00CCBB" alt="ResearchGate"/></a>
-
-<br/><br/>
-
-**💡 Open to collaborations · 🚀 Always learning · 🎯 Problem solver at heart**
-
-<sub>Family, sports, music, life and everything 💜 ADSM</sub>
-
-<br/>
-
-<sub>README inspired by [DenverCoder1](https://github.com/DenverCoder1) · Contribution art by [Platane/snk](https://github.com/Platane/snk) and [yoshi389111](https://github.com/yoshi389111/github-profile-3d-contrib) · <a href="#top">Back to top ↑</a></sub>
-
-<img src="./assets/footer.svg" width="100%" height="110" alt=""/>
+<sub>README inspired by <a href="https://github.com/DenverCoder1">DenverCoder1</a> · Contribution art by <a href="https://github.com/Platane/snk">Platane/snk</a> and <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111</a> · <a href="#top">Back to top ↑</a></sub>
 
 </div>
